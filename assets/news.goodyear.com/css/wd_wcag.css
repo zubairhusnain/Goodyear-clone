@@ -1,0 +1,24 @@
+/* Class selector repeated in order to increase specificity */
+.wd_sr-only.wd_sr-only.wd_sr-only.wd_sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+.wd_sr-only.wd_sr-only.wd_sr-only.wd_sr-only:active,
+.wd_sr-only.wd_sr-only.wd_sr-only.wd_sr-only:focus {
+	position: static;
+	width: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	clip: auto;
+}
+.wd_sr-only-focusable:active,
+.wd_sr-only-focusable:focus{
+	position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto;
+}

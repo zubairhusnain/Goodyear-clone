@@ -1,0 +1,1059 @@
+.megamenu .cmp-mega-menu__container
+{
+        max-width: 1280px;
+}
+.icon-goodyear-logo:before {
+    content: "\e672";
+}
+.icon-goodyear-logo:after {
+    color: #FFF;
+    content: "corporate";
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 22.5px;
+    font-style: italic;        
+        }            
+.megamenu {
+    font-size: 14px;
+    font-size: 1.4rem;
+    background-color: #004EA8;
+    display: block;
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+
+.megamenu .cmp-mega-menu__container {
+    margin: 0 auto;
+    vertical-align: middle;
+    display: flex;
+    padding: 18px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.megamenu  .cmp-image {
+  float: left;
+    margin-left: 35px;
+    padding: 18px 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 194px;
+    height: 44px;
+    cursor:pointer;
+
+}
+.cmp-mega-menu__logo-container{
+    width: 34%;
+    display: inline-block;
+    vertical-align: middle;
+    }
+
+           .megamenu.cmp-image__image{
+    width: 194px !important;
+    height: 45px !important;
+                        }
+.megamenu .cmp-image:after {
+    content: "corparate";
+    color: #FFF;
+    content: "corporate";
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 26px;
+    /* bottom: 16px; */
+    float: right;
+    display: \; line-height: 23;
+   line-height: 50px;
+    /* width: 132px; */
+    cursor: pointer;
+}
+ .megamenu .cmp-mega-menu__hamberger:before {
+ display:none;
+}
+
+.megamenu ul.cmp-mega-menu__link-container {
+    background-color: transparent;
+    display: block;
+    margin: 0;
+    position: static;
+    text-align: right;
+    width: 70%;
+    z-index: 11;
+}
+
+.megamenu  li.cmp-mega-menu__item {
+    font-size: 16px;
+    border-bottom: 0;
+    display: inline;
+    margin: 0;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.megamenu .cmp-mega-menu__item:last-of-type {
+border:0;
+}
+.megamenu  .cmp-mega-menu__link {
+    color: #FFF;
+    display: inline-block;
+    font-weight: normal;
+    text-decoration: none;
+}
+.megamenu li.cmp-mega-menu__item a::after {
+    content: "";
+    display: block;
+    background-color: #fedb00;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s;
+}
+
+.megamenu  .cmp-mega-menu__link:hover {
+    color: #FEDB00;
+}
+.megamenu  .cmp-mega-menu__link:hover::after {
+    width: 100%;
+  }
+.megamenu--selected{
+    position:relative;
+    }
+.megamenu--selected .cmp-mega-menu__link{
+     color: #FEDB00;
+}
+.megamenu--selected:before
+{
+ border-bottom: 23px solid #002754;
+ border-left: 20px solid transparent;
+ border-right: 20px solid transparent;
+ bottom: 0;
+ content: "";
+ height: 0;
+ left: 0;
+ margin: 0 auto;
+ position: absolute;
+ right: 0;
+ top: 30px;
+ width: 0;
+}
+/*---------SubComponents Starts CSS Styles-------*/
+
+
+ .megamenu .cmp-sub-nav {
+    position: relative;
+    z-index: 1000;
+ margin: 0 0;
+}
+
+ .megamenu .cmp-sub-nav__item {
+    position: absolute;
+    width: 100%;
+    z-index: 9000;
+    display: block;
+}
+
+.megamenu .cmp-sub-nav__background {
+  background-color: #002754;
+  padding-bottom: 25px;
+}
+.megamenu a.cmp-sub-nav__content {
+    display: inline-block;
+    float: left;
+     padding: 3% 9% 1%;
+    color: white;
+    text-decoration: none;
+    width: 22%;
+}
+.megamenu .cmp-sub-nav__content h2 {
+    font-size:1.8rem;
+    line-height:1.8rem;
+    /* font-size: 3.3rem; */
+    color: #FEDB00;
+    margin: 0;
+}
+.megamenu .cmp-sub-nav__content .main_heading
+ {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #FEDB00;
+    margin: 0;
+    font-weight: bold; 
+    display: inline-block;            
+}
+.megamenu .cmp-sub-nav__content .main_heading::after {
+    content: "";
+    display: block;
+    background-color: #fedb00;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s;
+}
+.megamenu .cmp-sub-nav__content .main_heading:hover::after {
+    width: 100%;
+}
+
+.megamenu .cmp-sub-nav__container {
+  display: inline-block;
+  width: 60%;
+  padding-bottom: 60px;
+}
+.megamenu a.cmp-sub-nav__link {
+    color: white;
+    float: left;
+    margin-right:20px;
+    min-height: 85px;
+    text-decoration: none;
+    /* width: 40%; */
+    margin: 6px 5% 6px 0;
+    width: 27%;
+}
+.megamenu .cmp-sub-nav__link .sub_heading
+{
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEDB00;
+    margin: 15px 0 0;
+    font-weight: bold;
+    display: inline-block;
+}
+.megamenu .cmp-sub-nav__link .sub_heading::after {
+    content: "";
+    display: block;
+    background-color: #fedb00;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s;
+}
+.megamenu .cmp-sub-nav__link .sub_heading:hover::after {
+    width: 100%;
+}
+.megamenu .cmp-sub-nav__container h3 {
+    font-size: 18px;
+    /* font-size: 2.1rem; */
+    line-height: 25px;
+
+    color: #FEDB00;
+    font-weight: bold;
+    margin: 15px 0 0;
+}
+      .megamenu .cmp-sub-nav__container h3 :hover{
+text-decoration:underline;
+                            }
+.megamenu .cmp-sub-nav__container h3:hover {
+    text-decoration: underline;
+}
+
+ .megamenu  a.cmp-sub-nav__close:before {
+    /* position: absolute; */
+    font-size: 12px;
+    /* font-size: 1.2rem; */
+    color: #FFF;
+    /* content: "\e673"; */
+    font-family: "icomoon";
+    position: absolute;
+    right: 1.5%;
+    top: 5px;
+    content: "x";
+    font-family: Arial, sans-serif;
+    z-index: 9999;
+    font-size: 22px;
+    font-weight: normal;
+}
+ .megamenu .cmp-sub-nav__background p {
+    font-size: 16px;
+    /* font-size: 1.8rem; */
+    line-height: 22px;
+    /* line-height: 2.2rem; */
+    color: #FFF;
+    font-family:'Barlow', sans-serif;
+    margin: 5px 0;
+}
+        a.cmp-sub-nav__link p {
+    font-size: 16px;
+    /* font-size: 1.6rem; */
+    line-height: 18px !important;
+    /* line-height: 1.8rem; */
+    color: #FFF;
+    margin: 0px !important;
+    text-decoration: none;
+        }
+
+.megamenu  .icon-thin-arrow-right img{
+    display:none;
+        }
+/*.megamenu  .icon-thin-arrow-right img {
+    height: 33px;
+    width: 33px;
+  
+    filter: hue-rotate(
+15deg
+);
+    position: relative;
+    top: 7px;
+}*/
+
+.megamenu span.icon-thin-arrow-right:before {
+    position: relative;
+    top: 2px;
+}
+
+.megamenu span.icon-thin-arrow-right:before {
+    content: "\e60a";
+}
+.mobile {
+	display: none;
+
+}
+.cross{
+display: none;
+    }
+.cmp-sub-nav-mobile{
+display: none;
+}
+
+
+/*---------SubComponents End's CSS Styles-------*/
+
+
+
+
+/*---------shopbrand CSS Styles-------*/
+
+.cmp-mega-menu .shopping {
+    margin-left: 70px;
+    color: #fff;
+    display:flex;
+   align-items: baseline;
+}
+.cmp-mega-menu .shopingHeader {
+    vertical-align: middle;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+	display: inline-block;
+}
+.cmp-mega-menu .shopingHeader::after {
+    content: "";
+    display: block;
+    background-color: #fedb00;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s;
+}
+
+.shopingHeader:hover {
+    color: #FEDB00;
+}
+
+.cmp-mega-menu .shopingHeader:hover::after {
+    width: 100%;
+}
+
+.cmp-mega-menu .icon-goodyear-logo:before {
+    content: "\e672";
+        font-size: 50px;
+        color: #FEDB00;
+}
+.cmp-mega-menu a.cmp-brandlogo {
+      color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.cmp-mega-menu span.icon-goodyear-logo {
+    display: flex;
+    align-items: center;
+}
+.cmp-mega-menu.cmp-search__icon {
+    display: block;
+    position: absolute;
+    right: 110px;
+    top: 0.9rem;
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+}
+ .cmp-mega-menu i.cmp-search__icon:after {
+    content: "\e608";
+    font-family: 'icomoon';
+    cursor:pointer;
+
+}
+.gy-search-mega-icon:after{
+	content: "\e608";
+    font-family: 'icomoon';
+    cursor: pointer;
+    text-align: end;
+}
+/*-------------Search bar---------*/
+
+.cmp-mega-menu mark.cmp-search__item-mark{
+	background-color: #FEDB00;
+}
+
+.cmp-mega-menu .cmp-search__results {
+width: 51%;
+min-width: 51%;
+left: 23%;
+}
+
+.cmp-mega-menu a.cmp-search__item {
+    border-top: 1px solid #adadad;
+    text-transform: capitalize;
+	text-decoration: none;
+	padding: 3px 14px;
+    line-height: 2rem;
+    color: #004EA8;
+    font-weight: bold;
+}
+.cmp-mega-menu a.cmp-search__item:hover {
+    color: #000000;
+}
+.cmp-mega-menu a.cmp-search__item:first-child {
+    border-top: 0px;
+}
+
+.cmp-mega-menu .cmp-search {
+    position: relative;
+    position: relative;
+    margin: 0 auto;
+    background-color: #dbdfe4;;
+    min-height: 68px;
+    padding: 28px;
+}
+.cmp-mega-menu form.cmp-search__form {
+    width: 50%;
+    margin: 0 auto;
+}
+.cmp-mega-menu .cmp-search__input {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 100%;
+    width: 83%;
+    border-radius: 30px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: normal;
+    outline: none;
+    border: 1px solid;
+}
+.gy_search_field{
+position:relative;
+    }
+a.cmp-sub-nav__close-search:before {
+    font-size: 12px;
+    color: #004EA8;
+    font-family: "icomoon";
+    position: absolute;
+    right: 8%;
+    top: 18px;
+    content:"\e673";
+   
+    z-index: 9999;
+    font-size: 15px;
+}
+.cmp-mega-menu  i.cmp-search__icon {
+    content: "";
+    background-image: none;
+    display: none !important;
+}
+   .cmp-mega-menu  span.gy-megamenu-search:before {
+    content: "\e608";
+    margin: 0 8px;
+    padding: 0 10px;
+    font-family: "icomoon";
+    font-size: 18px;
+    cursor:pointer;
+}
+
+.cmp-mega-menu span.gy-search-mega-icon {
+    position: absolute;
+        margin-top: -97px;
+    background-color: #003A7E;
+    right: 29%;
+    padding: 18px;
+    width: 86px;
+    border-radius: 48px;
+    height: 29px;
+}
+
+.cmp-mega-menu .gy-search-mega-icon:after {
+    content: "\e608";
+    font-family: 'icomoon';
+    cursor: pointer;
+    padding-left: 30px;
+    text-align: end;
+    color: #fff;
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.cmp-mega-menu .cmp-search__item-title {	
+    font-size: 18px;	
+}	
+.cmp-mega-menu .cmp-search__clear .cmp-search__clear-icon {	
+    top: 1.5rem;	
+    right: 11rem;	
+}
+
+.mobile,
+.megamenu .cmp-mega-menu__link.mobile {
+  display: none;
+}
+
+/*---------shopbrand End's CSS Styles-------*/
+@media (max-width: 550px) {
+.cmp-sub-nav__content_mobile .main_heading_mobile
+{
+color: #fff !important;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+.cmp-sub-nav-link-mobile .sub_heading_mobile
+{
+    line-height: 25px;
+    margin: 0 30px;
+    font-size: 16px;
+    color: #fff;
+}
+.cmp-mega-menu .cmp-search__clear .cmp-search__clear-icon {	
+        top: 1.5rem;	
+        right: 3.2rem;	
+}
+.cmp-mega-menu .cmp-search__results, .cmp-mega-menu .cmp-search__external-link {
+width: 100%;
+min-width: 100%;
+left: 0;
+}
+
+.icon-goodyear-logo:after{
+font-size:16px;
+    height: 19px;
+        }
+   .cmp-mega-menu .shopping {
+    margin-left: 120px;
+                }      
+.cmp-sub-nav-mobile{
+display: block;
+padding:0 !important;
+}
+.cmp-mega-menu .cmp-search__input {
+	font-size:18px;
+}
+.megamenu a.cmp-sub-nav__content{
+float:none !important
+        }
+      .cmp-sub-nav__content_mobile h2 {
+    color:#072e57 !important;
+    padding: 0 !important;
+    margin: 0;
+    padding-left: !important;
+    text-align: justify !important;
+    font-size: 16px !important;
+}
+    .cmp-sub-nav__close{
+display:none;
+    }
+
+    .cmp-content-open:after {
+    font-size: 2.5rem;
+    content: "+";
+    position: absolute;
+    right: 20px;
+    top: -3px;
+    color:#FEDB00 !important;
+    width:45px;
+	text-align:center;
+    cursor: pointer;
+}
+   .cmp-content-close:after {
+    font-size: 2.5rem;
+    content: "-";
+    position: absolute;
+    right: 20px;
+    top: -3px;
+    color:#FEDB00 !important;
+    width:45px;
+	text-align:center;
+    cursor: pointer;
+}
+
+.icon-thin-arrow-right{
+	display: none;
+}
+.cmp-megamenu-mobile {
+    padding: 0;
+    width: 100%;
+    position: relative !important;
+}
+.cmp-sub-nav__content_mobile {
+    float: none;
+    display: block;
+    padding: 0;
+    width: 100% !important;
+    padding-left: 20px;
+}
+.cmp-sub-nav__container_mobile {
+    width: 100% !important;
+    /* display: block !important; */
+}
+
+.cmp-sub-nav-link-mobile {
+    float: none !important;
+    width: 100% !important;
+    min-height: 30px !important;
+    margin: 10px 5px !important;
+}
+.cmp-sub-nav__container_mobile a h3 {
+     margin: 0 30px !important;
+    font-size: 16px !important;
+    color: #072e57 !important;
+}
+ .megamenu .cmp-mega-menu__hamberger:before {
+       border-bottom: 3px solid #FFF;
+    border-top: 10px double #FFF;
+    content: "";
+    color: #fff;
+    height: 4px;
+    position: absolute;
+    /* right: 0px; */
+
+    left: 0;
+    width: 25px;
+    cursor: pointer;
+    display: block;
+    margin-left: 10px;
+}
+  .megamenu  ul.cmp-mega-menu__link-container {
+    display:none ;
+}
+
+
+     .megamenu li.cmp-mega-menu__item{
+
+   /*font-size: 20px;
+    border-bottom: 1px solid #FFF !important;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    margin: 10px;
+    padding: 0 10px 10px;
+    text-transform: uppercase;
+    border: none;*/
+        font-size: 20px;
+    border-bottom: 1px solid #FFF !important;
+    font-weight: bold;
+    margin: 10px;
+    padding: 0 10px 4px;
+    text-transform: uppercase;
+    border: 0;
+    width: 100%;
+    display: block;
+
+                        }
+    .megamenu .cmp-image{
+    width: 140px;
+    height: 32px;
+    }
+            .megamenu .cmp-image:after{
+font-size:17.5px;
+                        }
+.megamenu .cmp-sub-nav{
+/*display:none;*/
+        }
+.megamenu .cmp-mega-menu__link {
+    color: #FEDB00;
+    display: inline;
+    text-decoration: none;
+}
+.cmp-mega-menu a.cmp-brandlogo {
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.cmp-mega-menu .icon-goodyear-logo:before {
+    content: "\e672";
+    font-size: 30px;
+    color: #FEDB00;
+}
+.cmp-mega-menu__logo-container {
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.cmp-mega-menu .shopingHeader{
+margin-bottom:0;
+        }
+.cmp-mega-menu span.icon-goodyear-logo {
+    margin-left: 25px;
+}
+    .cmp-mega-menu a.cmp-brandlogo {
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 12px;
+}
+    .cmp-mega-menu__logo-container{
+font-size: 15px;
+    margin: 0;
+        }
+
+.megamenu .cmp-mega-menu__hamberger:before{
+top:24px;
+            }
+            .cmp-mega-menu form.cmp-search__form {
+    width: 70%;
+    margin: 0;
+    min-width: 70%;
+}
+.cmp-mega-menu span.gy-search-mega-icon{
+    right: 12%;
+    }
+
+
+.cmp-mega-menu .cmp-search__input{
+width:100%;
+            }
+ .cross{
+
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+        }
+.cmp-sub-nav-mobile{
+display: block;
+ background-color: #002754 !important;
+
+}
+.cmp-megamenu-mobile {
+    background: #002754 !important;
+}
+a.cross:before {
+    color: #FFF;
+    content: "\e673";
+    font-family: "icomoon";
+      position: absolute;
+    margin-left: -7px;
+    margin-top: -4px;
+    font-size: 20px;
+    width:35px;
+}
+}
+@media (min-width: 551px) and (max-width: 768px){
+.cmp-content-open:after {
+    font-size: 2.5rem;
+    content: "+";
+    position: absolute; 
+    right: 20px;
+    font-size: 2.5rem;
+    top: 10px !important;
+    color: #FEDB00 !important;
+    cursor: pointer;
+}
+        .cmp-content-close:after {
+    font-size: 2.5rem;
+    content: "+";
+    position: absolute; 
+    right: 20px;
+    font-size: 2.5rem;
+    top: 10px !important;
+    color: #FEDB00 !important;
+    cursor: pointer;
+}
+}
+@media (min-width: 375px) and (max-width: 768px){
+	.cmp-megamenu-mobile {
+    padding: 0;
+    width: 100%;
+    position: relative !important;
+}
+
+.cmp-mega-menu .cmp-search__clear .cmp-search__clear-icon {
+        top: 1.5rem;
+        right: 3.2rem;
+    }
+
+.cmp-mega-menu .cmp-search__results, .cmp-mega-menu .cmp-search__external-link {
+width: 100%;
+min-width: 100%;
+left: 0;
+}	
+
+.cmp-sub-nav-mobile{
+display: block;
+ background-color: #002754 !important;        
+ padding:0 !important;
+}
+ .icon-goodyear-logo:after{
+font-size:16px;
+height: 19px;
+        }  
+   .cmp-mega-menu .shopping {
+    margin-left: 120px;
+                }
+a.cross:before {
+    color: #FFF;
+    content: "\e673";
+    font-family: "icomoon";
+    position: absolute;
+    margin-left: -7px;
+    margin-top: -4px;
+    font-size: 20px;
+    width:35px;
+}
+    .megamenu a.cmp-sub-nav__content{
+float:none !important
+        }
+
+.cmp-megamenu-mobile {
+    background: #002754 !important;
+}
+      .cmp-sub-nav__close{
+display:none;
+    }
+    .cross{
+position: absolute;
+    color: #fff;
+    text-decoration: none;
+        }
+
+    .cmp-content-open:after {
+    font-size: 2.5rem;
+    content: "+";
+    position: absolute;
+    right: 20px;
+    font-size: 2.5rem;
+    top: -3px;
+    color: #FEDB00 !important;
+    cursor: pointer;
+}
+   .cmp-content-close:after {
+    font-size: 2.5rem;
+    content: "-";
+    position: absolute;
+    right: 20px;
+    top: -3px;
+    color: #FEDB00 !important;
+    cursor: pointer;
+}
+.cmp-sub-nav__content_mobile h2 {
+    color: #000000 !important;
+    padding: 0 !important;
+    margin: 0;
+    padding-left: !important;
+    text-align: justify !important;
+    font-size: 16px !important;
+}
+.cmp-sub-nav__content_mobile .main_heading_mobile
+{
+color: #fff !important;
+    padding: 0;
+    margin: 0;
+    /*text-align: justify;*/
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+.icon-thin-arrow-right{
+	display: none;
+}
+.cmp-megamenu-mobile {
+    padding: 0;
+    width: 100%;
+    position: relative !imoportant;
+}
+.cmp-sub-nav__content_mobile {
+    float: none;
+    display: block;
+    padding: 0;
+    width: 100%;
+    padding-left: 20px;
+}
+.cmp-sub-nav__container_mobile {
+    width: 100% !important;
+    /* display: block !important; */
+}
+
+.cmp-sub-nav-link-mobile {
+    float: none !important;
+    width: 100% !important;
+    min-height: 30px !important;
+    margin: 10px 5px !important;
+}
+.cmp-sub-nav-link-mobile .sub_heading_mobile
+{
+    line-height: 25px;
+    margin: 0 30px;
+    font-size: 16px;
+    color: #fff;
+}
+.cmp-sub-nav__container_mobile a h3 {
+       margin: 0 30px !important;
+    font-size: 16px !important;
+    color: #072e57 !important;
+}    
+ .megamenu .cmp-mega-menu__hamberger:before {
+       border-bottom: 3px solid #FFF;
+    border-top: 10px double #FFF;
+    content: "";
+    color: #fff;
+    height: 4px;
+    position: absolute;
+    /* right: 0px; */
+	
+    left: 0;
+    width: 25px;
+    cursor: pointer;
+    display: block;
+    margin-left: 10px;
+	top: 28px;
+}
+     .megamenu  ul.cmp-mega-menu__link-container {
+    display:none ;
+}
+ 
+
+     .megamenu li.cmp-mega-menu__item{
+
+  /* font-size: 20px;
+    border-bottom: 1px solid #FFF !important;
+    font-family: "TradeGothicW01-BoldCn20 675334";
+    margin: 10px;
+    padding: 0 10px 10px;
+    text-transform: uppercase;
+    border: none;*/
+    font-size: 20px;
+    border-bottom: 1px solid #FFF !important;
+    font-weight: bold;
+    margin: 10px;
+    padding: 0 10px 4px;
+    text-transform: uppercase;
+    border: 0;
+    width: 100%;
+    display: block;
+
+                        }
+.megamenu .cmp-mega-menu__link {
+    color: #FEDB00;
+    display: inline;
+    text-decoration: none;
+}
+
+
+    .megamenu .cmp-image{
+    width: 140px;
+    height: 32px;
+    }
+
+
+  .megamenu .cmp-image:after{
+font-size:17.5px;
+           }
+
+.megamenu .cmp-sub-nav{
+display:none;
+        }
+.desktop {
+	display: none !important;
+}
+.cmp-mega-menu .shopingHeader{
+margin:0;
+        }
+  .cmp-mega-menu a.cmp-brandlogo {
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.cmp-mega-menu .icon-goodyear-logo:before {
+    content: "\e672";
+    font-size: 30px;
+    color: #FEDB00;
+}
+.cmp-mega-menu__logo-container {
+    width: 35%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px;
+}
+.cmp-mega-menu .shopingHeader{
+margin-bottom:0;
+        }
+.cmp-mega-menu span.icon-goodyear-logo {
+    margin-left: 25px;
+}
+    .cmp-mega-menu a.cmp-brandlogo {
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 12px;
+}
+    .cmp-mega-menu__logo-container{
+font-size: 15px;
+    margin: 0;
+        }
+.cmp-mega-menu form.cmp-search__form {
+    width: 70%;
+    margin: 0;
+    min-width: 70%;
+}
+.cmp-mega-menu span.gy-search-mega-icon{
+    right: 15%;
+    }
+
+.cmp-mega-menu .cmp-search__input{
+width:100%;
+            }
+			.cmp-mega-menu .cmp-search__input {
+	font-size:18px;
+}
+}
+ @media (min-width: 769px) and (max-width: 1100px){
+.cmp-mega-menu span.gy-search-mega-icon {
+    right: 21%;
+}
+.megamenu .cmp-sub-nav{
+margin:0;
+            }
+   .cmp-mega-menu .icon-goodyear-logo:before {
+    content: "\e672";
+    font-size: 30px;
+    color: #FEDB00;
+}
+  .cmp-mega-menu a.cmp-brandlogo {
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 16px;
+}
+ .megamenu ul.cmp-mega-menu__link-container{
+width:100%;
+            }
+			
+        .cmp-mega-menu .shopping{
+margin:0;
+                }
+.cmp-mega-menu span.gy-search-mega-icon{
+right:26%;
+    }
+}
+.search_field_hide{
+display: none;
+}
+@supports (-webkit-touch-callout: none) {
+.cmp-mega-menu span.gy-search-mega-icon
+{
+margin-top: -96px;
+height: 36px;
+}
+}
+@supports not (-webkit-touch-callout: none) {
+.cmp-mega-menu span.gy-search-mega-icon
+{
+height: 36px !important;
+}
+}
