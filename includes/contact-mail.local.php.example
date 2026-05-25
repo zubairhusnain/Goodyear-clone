@@ -1,0 +1,19 @@
+<?php
+declare(strict_types=1);
+
+/**
+ * Copy to contact-mail.local.php and fill in your SMTP credentials.
+ */
+return [
+    'recipient' => 'you@example.com',
+    'from_email' => 'your.email@gmail.com',
+    'from_name' => 'Goodyear Contact Form',
+    'smtp' => [
+        'enabled' => true,
+        'host' => 'smtp.gmail.com',
+        'port' => 587,
+        'encryption' => 'tls',
+        'username' => 'your.email@gmail.com',
+        'password' => 'your-app-password',
+    ],
+];
