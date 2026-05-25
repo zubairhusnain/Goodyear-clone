@@ -279,7 +279,26 @@ function gy_is_static_asset_url(string $urlPath): bool
         '~\.(png|jpe?g|gif|svg|webp|avif|ico|woff2?|ttf|eot|css|js|mjs|map|xml)(\?|#|$)~i',
         $urlPath
     )
-        || preg_match('~/(?:_next/static|images)/~i', $urlPath);
+        || preg_match('~/(?:_next/static|images|assets)(?:/|$)~i', $urlPath);
+}
+
+function gy_is_offline_site_host(string $host): bool
+{
+    $baseHost = parse_url(GY_BASE_URL, PHP_URL_HOST);
+    if (!is_string($baseHost) || $baseHost === '') {
+        return false;
+    }
+
+    return strtolower($host) === strtolower($baseHost);
+}
+
+/** True for www.goodyear.com and *.goodyear.com, not clone TLDs like goodyear.com.pk */
+function gy_is_us_goodyear_host(string $host): bool
+{
+    $host = strtolower($host);
+
+    return $host === 'goodyear.com'
+        || str_ends_with($host, '.goodyear.com');
 }
 
 function gy_route_from_goodyear_path(string $pathname, string $host): string
@@ -327,6 +346,10 @@ function gy_goodyear_absolute_to_local_href(string $absoluteUrl): ?string
     }
 
     $host = strtolower((string)$parts['host']);
+    if (gy_is_offline_site_host($host) || !gy_is_us_goodyear_host($host)) {
+        return null;
+    }
+
     $path = (string)($parts['path'] ?? '');
 
     if (gy_is_static_asset_url($path) && !preg_match('~/sitemap\.xml$~i', $path)) {
@@ -382,16 +405,21 @@ function gy_rewrite_external_goodyear_urls(string $html): string
         return GY_BASE_URL . ($local === 'index.html' ? '' : '/' . preg_replace('~/index\.html$~', '', $local));
     };
 
+    $externalGoodyearUrl = '~https?://(?:[a-z0-9-]+\.)*goodyear\.com(?!\.[a-z0-9-])[^"\'\s<>\\\\]*~i';
+
     $html = preg_replace_callback(
-        '~https?://(?:[a-z0-9-]+\.)*goodyear\.com[^"\'\s<>\\\\]*~i',
+        $externalGoodyearUrl,
         static function (array $m) use ($rewrite): string {
+            if (str_starts_with($m[0], GY_BASE_URL)) {
+                return $m[0];
+            }
             return $rewrite($m[0]);
         },
         $html
     ) ?? $html;
 
     $html = preg_replace_callback(
-        '~(?:https?%3A%2F%2F)(?:[a-z0-9-]+\.)*goodyear\.com[^"\'\s&<>\\\\]*~i',
+        '~(?:https?%3A%2F%2F)(?:[a-z0-9-]+\.)*goodyear\.com(?!\.[a-z0-9-])[^"\'\s&<>\\\\]*~i',
         static function (array $m) use ($rewrite): string {
             $decoded = rawurldecode(preg_replace('/^https?%3A%2F%2F/i', 'https://', $m[0]) ?? $m[0]);
             $local = gy_goodyear_absolute_to_local_href($decoded);
