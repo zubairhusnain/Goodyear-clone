@@ -1,0 +1,57 @@
+.gy-contact-alert {
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.gy-contact-alert--success {
+  background: #e8f5e9;
+  color: #1b5e20;
+  border: 1px solid #a5d6a7;
+}
+
+.gy-contact-alert--error {
+  background: #ffebee;
+  color: #b71c1c;
+  border: 1px solid #ef9a9a;
+}
+
+.gy-contact-alert--info {
+  background: #e3f2fd;
+  color: #0d47a1;
+  border: 1px solid #90caf9;
+}
+
+.gy-contact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.gy-contact-field label {
+  display: block;
+}
+
+.gy-contact-hp {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.gy-contact-form select {
+  appearance: auto;
+  cursor: pointer;
+}
+
+.gy-contact-form fieldset:disabled .gy-contact-field label,
+.gy-contact-form fieldset:disabled input,
+.gy-contact-form fieldset:disabled select,
+.gy-contact-form fieldset:disabled textarea,
+.gy-contact-form fieldset:disabled button {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
