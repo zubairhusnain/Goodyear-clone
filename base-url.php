@@ -22,12 +22,28 @@ function gy_normalize_base_path_string(string $path): string
     return rtrim($path, '/');
 }
 
+function gy_normalize_dir(string $dir): string
+{
+    $dir = str_replace('\\', '/', $dir);
+    return rtrim($dir, '/');
+}
+
+function gy_site_root_markers_present(): bool
+{
+    return is_file(__DIR__ . '/index.php')
+        && is_file(__DIR__ . '/router.php')
+        && is_dir(__DIR__ . '/assets');
+}
+
 function gy_install_base_path_from_script(): ?string
 {
     foreach (['SCRIPT_NAME', 'PHP_SELF'] as $key) {
         $script = $_SERVER[$key] ?? '';
-        if (!is_string($script) || $script === '' || $script === '/index.php') {
+        if (!is_string($script) || $script === '') {
             continue;
+        }
+        if ($script === '/index.php' || $script === '/router.php') {
+            return '';
         }
         if (preg_match('#^(.+)/(?:router|index)\.php$#', $script, $m) === 1) {
             return gy_normalize_base_path_string($m[1]);
@@ -35,6 +51,22 @@ function gy_install_base_path_from_script(): ?string
     }
 
     return null;
+}
+
+function gy_install_dir_matches_document_root(): bool
+{
+    $docRoot = $_SERVER['DOCUMENT_ROOT'] ?? '';
+    if ($docRoot === '') {
+        return false;
+    }
+
+    $here = realpath(__DIR__);
+    $root = realpath($docRoot);
+    if ($here !== false && $root !== false) {
+        return $here === $root;
+    }
+
+    return gy_normalize_dir($docRoot) === gy_normalize_dir(__DIR__);
 }
 
 function gy_install_base_path(): string
@@ -74,9 +106,20 @@ function gy_install_base_path(): string
         }
     }
 
+    if (gy_install_dir_matches_document_root()) {
+        $path = '';
+        return $path;
+    }
+
     $fromScript = gy_install_base_path_from_script();
     if ($fromScript !== null) {
         $path = $fromScript;
+        return $path;
+    }
+
+    // cPanel public_html root: never use folder name like "public_html" or "goodyear_offline" as URL prefix.
+    if (gy_site_root_markers_present()) {
+        $path = '';
         return $path;
     }
 

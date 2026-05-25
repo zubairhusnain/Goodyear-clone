@@ -1,18 +1,42 @@
 # Deploying on cPanel
 
-## Upload
+## Upload (public_html root — most common)
 
-1. Upload the **entire** `goodyear_offline` folder (or its contents into the domain document root).
-2. You **must** include the **`assets/`** tree (~195MB). Most tire photos live under:
+Your `public_html` folder should look like this (files **directly** inside, not inside another folder):
+
+```
+public_html/
+  index.php
+  router.php
+  .htaccess
+  assets/
+  images/
+  pages/
+  includes/
+```
+
+**Wrong** (images break if you open `https://example.com/`):
+
+```
+public_html/
+  goodyear_offline/    ← extra folder
+    index.php
+    assets/
+```
+
+If you already uploaded the `goodyear_offline` folder, either move everything up one level into `public_html`, or use the site at `https://example.com/goodyear_offline/` and set `GY_BASE_PATH` to `/goodyear_offline`.
+
+1. Upload the **entire** site including **`assets/`** (~195MB). Most photos are in:
    `assets/s7d1.scene7.com/is/image/GoodyearSitesProd/`
-3. Run `composer install --no-dev` on the server (or upload `vendor/` from a local install).
+2. Upload `includes/gy-config.local.php` with `define('GY_BASE_PATH', '');` for root installs.
+3. Run `composer install --no-dev` on the server (or upload `vendor/`).
 
 ## Document root (pick one)
 
 | Setup | URL | `GY_BASE_PATH` |
 |--------|-----|----------------|
-| Domain root points at `goodyear_offline/` | `https://example.com/` | `''` (empty) |
-| Site in `public_html/goodyear_offline/` | `https://example.com/goodyear_offline/` | `/goodyear_offline` |
+| Files in `public_html/` (root) | `https://example.com/` | `''` (empty) |
+| Files in `public_html/goodyear_offline/` | `https://example.com/goodyear_offline/` | `/goodyear_offline` |
 
 Wrong base path is the most common reason **images work on localhost but not on cPanel**.
 
