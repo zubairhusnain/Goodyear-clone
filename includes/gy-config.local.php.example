@@ -1,0 +1,11 @@
+<?php
+declare(strict_types=1);
+
+/**
+ * Copy to gy-config.local.php on cPanel when images or links point at the wrong folder.
+ *
+ * Examples:
+ *   Site at https://example.com/           → define('GY_BASE_PATH', '');
+ *   Site at https://example.com/goodyear/  → define('GY_BASE_PATH', '/goodyear');
+ */
+define('GY_BASE_PATH', '');

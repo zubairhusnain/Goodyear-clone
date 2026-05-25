@@ -4,6 +4,39 @@ declare(strict_types=1);
 require_once __DIR__ . '/includes/gy-php-polyfill.php';
 require_once __DIR__ . '/includes/gy-sanitize-tracking.php';
 
+$gyLocalConfig = __DIR__ . '/includes/gy-config.local.php';
+if (is_file($gyLocalConfig)) {
+    require_once $gyLocalConfig;
+}
+
+function gy_normalize_base_path_string(string $path): string
+{
+    $path = trim($path);
+    if ($path === '' || $path === '/') {
+        return '';
+    }
+    if (!str_starts_with($path, '/')) {
+        $path = '/' . $path;
+    }
+
+    return rtrim($path, '/');
+}
+
+function gy_install_base_path_from_script(): ?string
+{
+    foreach (['SCRIPT_NAME', 'PHP_SELF'] as $key) {
+        $script = $_SERVER[$key] ?? '';
+        if (!is_string($script) || $script === '' || $script === '/index.php') {
+            continue;
+        }
+        if (preg_match('#^(.+)/(?:router|index)\.php$#', $script, $m) === 1) {
+            return gy_normalize_base_path_string($m[1]);
+        }
+    }
+
+    return null;
+}
+
 function gy_install_base_path(): string
 {
     static $path = null;
@@ -11,9 +44,14 @@ function gy_install_base_path(): string
         return $path;
     }
 
+    if (defined('GY_BASE_PATH')) {
+        $path = gy_normalize_base_path_string((string)GY_BASE_PATH);
+        return $path;
+    }
+
     $override = getenv('GY_BASE_PATH');
-    if (is_string($override)) {
-        $path = ($override === '' || $override === '/') ? '' : (str_starts_with($override, '/') ? $override : '/' . $override);
+    if (is_string($override) && $override !== '') {
+        $path = gy_normalize_base_path_string($override);
         return $path;
     }
 
@@ -30,16 +68,39 @@ function gy_install_base_path(): string
             if (str_starts_with($here, $rootPrefix)) {
                 $rel = substr($here, strlen($root));
                 $path = str_replace('\\', '/', $rel);
-                if ($path !== '' && !str_starts_with($path, '/')) {
-                    $path = '/' . $path;
-                }
+                $path = gy_normalize_base_path_string($path);
                 return $path;
             }
         }
     }
 
+    $fromScript = gy_install_base_path_from_script();
+    if ($fromScript !== null) {
+        $path = $fromScript;
+        return $path;
+    }
+
     $path = '/' . basename(__DIR__);
     return $path;
+}
+
+function gy_request_is_https(): bool
+{
+    if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') {
+        return true;
+    }
+    if (($_SERVER['SERVER_PORT'] ?? '') === '443') {
+        return true;
+    }
+    $forwarded = $_SERVER['HTTP_X_FORWARDED_PROTO'] ?? $_SERVER['HTTP_X_FORWARDED_SSL'] ?? '';
+    if (is_string($forwarded)) {
+        $forwarded = strtolower(trim(explode(',', $forwarded)[0]));
+        if ($forwarded === 'https' || $forwarded === 'on') {
+            return true;
+        }
+    }
+
+    return !empty($_SERVER['HTTP_CF_VISITOR']) && str_contains((string)$_SERVER['HTTP_CF_VISITOR'], 'https');
 }
 
 function gy_normalize_request_path(string $path): string
@@ -62,14 +123,74 @@ function gy_normalize_request_path(string $path): string
 
 if (!defined('GY_BASE_URL')) {
     if (isset($_SERVER['HTTP_HOST'])) {
-        $isHttps = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || (($_SERVER['SERVER_PORT'] ?? '') === '443');
-        $scheme = $isHttps ? 'https' : 'http';
+        $scheme = gy_request_is_https() ? 'https' : 'http';
         $host = (string)$_SERVER['HTTP_HOST'];
         $base = $scheme . '://' . $host . gy_install_base_path();
     } else {
         $base = 'http://localhost' . gy_install_base_path();
     }
     define('GY_BASE_URL', rtrim($base, '/'));
+}
+
+function gy_prefix_asset_attribute_urls(string $html, string $base): string
+{
+    $attrs = 'href|src|srcset|imagesrcset|poster|data-src|data-srcset';
+
+    $html = preg_replace(
+        '~\b(' . $attrs . ')=(["\'])(?:\.\./)+(assets/[^"\']*)\2~i',
+        '$1=$2' . $base . '/$3$2',
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~\b(' . $attrs . ')=(["\'])\./(assets/[^"\']*)\2~i',
+        '$1=$2' . $base . '/$3$2',
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~\b(' . $attrs . ')=(["\'])/(assets/[^"\']*)\2~i',
+        '$1=$2' . $base . '/$3$2',
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~\b(' . $attrs . ')=(["\'])assets/([^"\']*)\2~i',
+        '$1=$2' . $base . '/assets/$3$2',
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~\b(' . $attrs . ')=(["\'])/images/([^"\']+)\2~i',
+        '$1=$2' . $base . '/images/$3$2',
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~\b(' . $attrs . ')=(["\'])images/([^"\']+)\2~i',
+        '$1=$2' . $base . '/images/$3$2',
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~url\(\s*(["\']?)/(assets/[^"\')]+)\1\s*\)~i',
+        'url($1' . $base . '/$2$1)',
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~url\(\s*(["\']?)/(images/[^"\')]+)\1\s*\)~i',
+        'url($1' . $base . '/$2$1)',
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~url\(\s*(["\']?)assets/([^"\')]+)\1\s*\)~i',
+        'url($1' . $base . '/assets/$2$1)',
+        $html
+    ) ?? $html;
+
+    return $html;
 }
 
 function gy_is_asset_path(string $path): bool
@@ -337,29 +458,7 @@ function gy_rewrite_html_urls(string $html): string
         $html
     ) ?? $html;
 
-    $html = preg_replace(
-        '~\b(href|src)=(["\'])(?:\.\./)+(assets/[^"\']*)\2~i',
-        '$1=$2' . $base . '/$3$2',
-        $html
-    ) ?? $html;
-
-    $html = preg_replace(
-        '~\b(href|src)=(["\'])\./(assets/[^"\']*)\2~i',
-        '$1=$2' . $base . '/$3$2',
-        $html
-    ) ?? $html;
-
-    $html = preg_replace(
-        '~\b(href|src)=(["\'])/(assets/[^"\']*)\2~i',
-        '$1=$2' . $base . '/$3$2',
-        $html
-    ) ?? $html;
-
-    $html = preg_replace(
-        '~\b(href|src)=(["\'])assets/([^"\']*)\2~i',
-        '$1=$2' . $base . '/assets/$3$2',
-        $html
-    ) ?? $html;
+    $html = gy_prefix_asset_attribute_urls($html, $base);
 
     $html = preg_replace(
         '~\b(href|src)=(["\'])\.\/_next\/static\/chunks\/([^"\']+?)\/index\.html\2~i',
@@ -412,10 +511,13 @@ function gy_rewrite_html_urls(string $html): string
         static function (array $m) use ($currentRoute): string {
             $val = $m[2];
             if (
-                !preg_match('~^(?:index\.html|-us/|2025-|https?://)~i', $val) &&
+                !preg_match('~^(?:index\.html|-us/|2025-|assets/|images/|https?://)~i', $val) &&
                 !preg_match('~^https?%3A%2F%2F~i', $val)
             ) {
                 return $m[0];
+            }
+            if (preg_match('~^(?:assets/|images/)~i', $val)) {
+                return 'content=' . $m[1] . $base . '/' . ltrim($val, '/') . $m[1];
             }
             $resolved = gy_resolve_internal_href($currentRoute, $val);
             if ($resolved === null) {
@@ -429,12 +531,6 @@ function gy_rewrite_html_urls(string $html): string
     $html = preg_replace(
         '~<link\s+rel=["\']preconnect["\'][^>]*>~i',
         '',
-        $html
-    ) ?? $html;
-
-    $html = preg_replace(
-        '~\b(href|src)=(["\'])/images/([^"\']+)\2~i',
-        '$1=$2' . $base . '/images/$3$2',
         $html
     ) ?? $html;
 
