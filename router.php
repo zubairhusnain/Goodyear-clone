@@ -18,6 +18,23 @@ if (!is_string($path) || $path === '') {
 $path = gy_normalize_request_path($path);
 $pagesReal = realpath(__DIR__ . '/pages');
 
+if (str_starts_with($path, '/images/')) {
+    $localFs = __DIR__ . $path;
+    if (is_file($localFs)) {
+        $contentType = 'application/octet-stream';
+        if (function_exists('mime_content_type')) {
+            $mt = mime_content_type($localFs);
+            if (is_string($mt) && $mt !== '') {
+                $contentType = $mt;
+            }
+        }
+        header('Content-Type: ' . $contentType);
+        header('Cache-Control: public, max-age=86400');
+        readfile($localFs);
+        exit;
+    }
+}
+
 if (str_starts_with($path, '/assets/')) {
     $localFs = __DIR__ . $path;
     if (is_file($localFs)) {

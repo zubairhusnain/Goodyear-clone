@@ -44,9 +44,9 @@ function gy_send_security_headers(): void
         'Content-Security-Policy: ' .
         "default-src 'self'; " .
         "script-src 'self' 'unsafe-inline'; " .
-        "style-src 'self' 'unsafe-inline' https://use.typekit.net; " .
+        "style-src 'self' 'unsafe-inline' https://use.typekit.net https://p.typekit.net; " .
         "img-src 'self' https: data: blob:; " .
-        "font-src 'self' https://use.typekit.net data:; " .
+        "font-src 'self' https://use.typekit.net https://p.typekit.net data:; " .
         "connect-src 'self'; " .
         "frame-src 'none'; " .
         "object-src 'none'; " .

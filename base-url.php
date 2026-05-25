@@ -406,15 +406,35 @@ function gy_rewrite_html_urls(string $html): string
     $html = gy_rewrite_external_goodyear_urls($html);
     $html = gy_rewrite_scene7_urls($html);
 
+    // Only rewrite meta/content URLs (e.g. og:url, canonical), not viewport text or descriptions.
     $html = preg_replace_callback(
         '~\bcontent=(["\'])([^"\']+)\1~i',
         static function (array $m) use ($currentRoute): string {
-            $resolved = gy_resolve_internal_href($currentRoute, $m[2]);
+            $val = $m[2];
+            if (
+                !preg_match('~^(?:index\.html|-us/|2025-|https?://)~i', $val) &&
+                !preg_match('~^https?%3A%2F%2F~i', $val)
+            ) {
+                return $m[0];
+            }
+            $resolved = gy_resolve_internal_href($currentRoute, $val);
             if ($resolved === null) {
                 return $m[0];
             }
             return 'content=' . $m[1] . $resolved . $m[1];
         },
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~<link\s+rel=["\']preconnect["\'][^>]*>~i',
+        '',
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~\b(href|src)=(["\'])/images/([^"\']+)\2~i',
+        '$1=$2' . $base . '/images/$3$2',
         $html
     ) ?? $html;
 

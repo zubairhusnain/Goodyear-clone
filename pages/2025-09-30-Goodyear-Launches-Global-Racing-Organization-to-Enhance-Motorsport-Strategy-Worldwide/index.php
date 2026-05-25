@@ -5,7 +5,7 @@ gy_start_output_rewrite();
 ?>
 <!DOCTYPE html><html lang="en" class="backgroundblendmode"><head><base href="__GY_BASE__/">
 <!-- begin spin_special_output(head_start) -->
-<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/MHBiAvbtvk5Wb2eTZHoP1dUd/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-sqowHdlB0Wd7Pyivp8HlgVSUp0y72f9c+AA/LnYmxQ3ftGNyujn1FRgphnO7e4Oo" nonce="MjEyMDM5Nzc0YTljZTM2ZmQzMWE1ZjEzNjU3YWQ3ZTg1ODhlM2I1Mw=="></script><script type="text/javascript" wd_script_id="view_printable_script" nonce="MjEyMDM5Nzc0YTljZTM2ZmQzMWE1ZjEzNjU3YWQ3ZTg1ODhlM2I1Mw==">
+<script type="text/javascript" wd_script_id="view_printable_script" nonce="MjEyMDM5Nzc0YTljZTM2ZmQzMWE1ZjEzNjU3YWQ3ZTg1ODhlM2I1Mw==">
 	function view_printable() {
 		var loc = window.location;
 		var sep = (loc.search == "") ? "?" : "&";
@@ -281,6 +281,11 @@ blockquote.wd_pullquote:after {
 
 <link rel="canonical" href="2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide/index.html">
 <!-- end spin_special_output(head_end) -->
+
+
+
+
+
 
 
 
@@ -1639,6 +1644,11 @@ margin:0in;
     g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
   })();
 </script>
+
+
+
+
+
 
 
 
