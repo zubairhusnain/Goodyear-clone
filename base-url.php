@@ -191,6 +191,17 @@ function gy_goodyear_absolute_to_local_href(string $absoluteUrl): ?string
     return $route . '/index.html' . $query . $hash;
 }
 
+function gy_rewrite_scene7_urls(string $html): string
+{
+    return preg_replace_callback(
+        '~(?:https?://s7d1\.scene7\.com|assets/s7d1\.scene7\.com)/is/image/GoodyearSitesProd/([^"\'?\\\\]+)(?:\?(?:[^"\'\\\\]|&amp;)*)?~i',
+        static function (array $m): string {
+            return 'assets/s7d1.scene7.com/is/image/GoodyearSitesProd/' . rawurldecode($m[1]);
+        },
+        $html
+    ) ?? $html;
+}
+
 function gy_rewrite_external_goodyear_urls(string $html): string
 {
     $rewrite = static function (string $match): string {
@@ -393,6 +404,7 @@ function gy_rewrite_html_urls(string $html): string
     ) ?? $html;
 
     $html = gy_rewrite_external_goodyear_urls($html);
+    $html = gy_rewrite_scene7_urls($html);
 
     $html = preg_replace_callback(
         '~\bcontent=(["\'])([^"\']+)\1~i',

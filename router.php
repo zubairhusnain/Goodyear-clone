@@ -34,6 +34,8 @@ if (str_starts_with($path, '/assets/')) {
             $contentType = 'application/javascript; charset=utf-8';
         } elseif (str_ends_with($localFs, '.svg')) {
             $contentType = 'image/svg+xml';
+        } elseif (str_contains($path, '/GoodyearSitesProd/')) {
+            $contentType = 'image/png';
         }
         header('Content-Type: ' . $contentType);
         header('Cache-Control: public, max-age=86400');
