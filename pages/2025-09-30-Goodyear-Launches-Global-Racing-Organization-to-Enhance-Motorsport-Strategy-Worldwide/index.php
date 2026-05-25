@@ -269,7 +269,7 @@ blockquote.wd_pullquote:after {
 	<link rel="stylesheet" type="text/css" href="assets/news.goodyear.com/css/template.css">
 	<link rel="stylesheet" type="text/css" href="assets/news.goodyear.com/css/wdcontent.css">
 	<link rel="stylesheet" type="text/css" href="assets/news.goodyear.com/css/megamenu.css">
-	<link rel="alternate" href="index.html?pagetemplate=rss" type="application/rss+xml" title="News | Goodyear Corporate">
+	<link rel="alternate" href="index.html" type="application/rss+xml" title="News | Goodyear Corporate">
 
 <!-- begin spin_special_output(head_end) -->
 <!-- OneTrust Cookies Consent Notice start -->
@@ -281,6 +281,11 @@ blockquote.wd_pullquote:after {
 
 <link rel="canonical" href="2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide/index.html">
 <!-- end spin_special_output(head_end) -->
+
+
+
+
+
 
 
 
@@ -439,7 +444,7 @@ blockquote.wd_pullquote:after {
 								<div class="button cmp-button-right cmp-button--header-black-banner aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--12 aem-GridColumn--offset--default--0">
 
 
-									<a id="button-0447fb2438" class="cmp-button" href="international/index.html" data-cmp-clickable="" data-cmp-data-layer="{&quot;button-0447fb2438&quot;:{&quot;@type&quot;:&quot;goodyear-corp/components/button&quot;,&quot;repo:modifyDate&quot;:&quot;2024-06-05T19:33:36Z&quot;,&quot;dc:title&quot;:&quot;All Goodyear Sites&quot;,&quot;xdm:linkURL&quot;:&quot;-us/international/index.html?expand=international">
+									<a id="button-0447fb2438" class="cmp-button" href="index.html" data-cmp-clickable="" data-cmp-data-layer="{&quot;button-0447fb2438&quot;:{&quot;@type&quot;:&quot;goodyear-corp/components/button&quot;,&quot;repo:modifyDate&quot;:&quot;2024-06-05T19:33:36Z&quot;,&quot;dc:title&quot;:&quot;All Goodyear Sites&quot;,&quot;xdm:linkURL&quot;:&quot;index.html?expand=international">
 
 
 										<span class="cmp-button__text">
@@ -472,24 +477,24 @@ blockquote.wd_pullquote:after {
 											<ul class="cmp-mega-menu__link-container ">
 												<li class="cmp-mega-menu__item ">
 													<a href="#" class="cmp-mega-menu__link desktop" data-link="Company" id="megaMenuLink">Company</a>
-													<a href="us/en/company.html/index.html" class="cmp-mega-menu__link mobile" data-link="Company" id="megaMenuLink">Company</a>
+													<a href="index.html" class="cmp-mega-menu__link mobile" data-link="Company" id="megaMenuLink">Company</a>
 												</li>
 
 												<li class="cmp-mega-menu__item ">
 													<a href="#" class="cmp-mega-menu__link desktop" data-link="Commitments" id="megaMenuLink">Commitments</a>
-													<a href="us/en/commitments.html/index.html" class="cmp-mega-menu__link mobile" data-link="Commitments" id="megaMenuLink">Commitments</a>
+													<a href="index.html" class="cmp-mega-menu__link mobile" data-link="Commitments" id="megaMenuLink">Commitments</a>
 												</li>
 
 												<li class="cmp-mega-menu__item ">
 													<a href="#" class="cmp-mega-menu__link desktop" data-link="Products &amp; Innovations" id="megaMenuLink">Products
 														&amp; Innovations</a>
-													<a href="us/en/products-and-innovations.html/index.html" class="cmp-mega-menu__link mobile" data-link="Products &amp; Innovations" id="megaMenuLink">Products
+													<a href="index.html" class="cmp-mega-menu__link mobile" data-link="Products &amp; Innovations" id="megaMenuLink">Products
 														&amp; Innovations</a>
 												</li>
 
 												<li class="cmp-mega-menu__item ">
 													<a href="#" class="cmp-mega-menu__link desktop" data-link="Investors" id="megaMenuLink">Investors</a>
-													<a href="us/en/investors.html/index.html" class="cmp-mega-menu__link mobile" data-link="Investors" id="megaMenuLink">Investors</a>
+													<a href="index.html" class="cmp-mega-menu__link mobile" data-link="Investors" id="megaMenuLink">Investors</a>
 												</li>
 
 												<li class="cmp-mega-menu__item ">
@@ -500,48 +505,48 @@ blockquote.wd_pullquote:after {
 
 											<div class="shopping">
 												<span class="gy-megamenu-search" id="gy-menu-search"></span>
-												<a href="international/index.html" class="shopingHeader" data-link="-us/international/index.html" id="shoppingLink">Shop</a>
+												<a href="index.html" class="shopingHeader" data-link="index.html" id="shoppingLink">Shop</a>
 											</div>
 										</div>
 										<div class="cmp-sub-nav" id="mySidenav">
 											<div class="cmp-sub-nav__item" data-target="Company" style="display:none;">
 												<div class="cmp-sub-nav__background">
-													<a href="us/en/company.html/index.html" class="cmp-sub-nav__content">
+													<a href="index.html" class="cmp-sub-nav__content">
 														<div class="main_heading">Company</div>
 														<p>At Goodyear, innovation isn't just what we do-it's who we
 															are. Learn about what drives us and where we're headed next.
 														</p>
 													</a>
 													<div class="cmp-sub-nav__container">
-														<a href="us/en/company/strategy.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Strategy</div>
 														</a>
 
-														<a href="us/en/company/working-at-goodyear.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Working at Goodyear</div>
 														</a>
 
-														<a href="us/en/company/awards.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Awards</div>
 														</a>
 
-														<a href="us/en/company/blimp.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Blimp</div>
 														</a>
 
-														<a href="us/en/company/leadership.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Leadership</div>
 														</a>
 
-														<a href="us/en/company/locations.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Locations</div>
 														</a>
 
-														<a href="us/en/company/contact-us.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Contact Us</div>
 														</a>
 
-														<a href="us/en/company/history.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">History</div>
 														</a>
 													</div>
@@ -551,7 +556,7 @@ blockquote.wd_pullquote:after {
 
 											<div class="cmp-sub-nav__item" data-target="Commitments" style="display:none;">
 												<div class="cmp-sub-nav__background">
-													<a href="us/en/commitments.html/index.html" class="cmp-sub-nav__content">
+													<a href="index.html" class="cmp-sub-nav__content">
 														<div class="main_heading">Commitments</div>
 														<p>At Goodyear, we are focused on creating value for all our
 															stakeholders—working with our customers to help them meet their
@@ -560,24 +565,24 @@ blockquote.wd_pullquote:after {
 															sustainability journey and giving back to the community.</p>
 													</a>
 													<div class="cmp-sub-nav__container">
-														<a href="us/en/commitments/acting-with-integrity.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Acting with Integrity</div>
 														</a>
 
-														<a href="us/en/commitments/sourcing-sustainably.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Sourcing Sustainably</div>
 														</a>
 
-														<a href="us/en/commitments/operating-responsibly.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Operating Responsibly</div>
 														</a>
 
-														<a href="us/en/commitments/engaging-associates-and-communities.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Engaging Associates &amp; Communities
 															</div>
 														</a>
 
-														<a href="us/en/commitments/reports-and-policies.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Report &amp; Policies</div>
 														</a>
 
@@ -591,30 +596,30 @@ blockquote.wd_pullquote:after {
 
 											<div class="cmp-sub-nav__item" data-target="Products &amp; Innovations" style="display:none;">
 												<div class="cmp-sub-nav__background">
-													<a href="us/en/products-and-innovations.html/index.html" class="cmp-sub-nav__content">
+													<a href="index.html" class="cmp-sub-nav__content">
 														<div class="main_heading">Products &amp; Innovations</div>
 														<p>Goodyear has always been at the forefront of tire technology,
 															continuously producing products, services and solutions that
 															enable mobility across various industries worldwide.</p>
 													</a>
 													<div class="cmp-sub-nav__container">
-														<a href="us/en/products-and-innovations/tires.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Tires</div>
 														</a>
 
-														<a href="us/en/products-and-innovations/brands.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Brands</div>
 														</a>
 
-														<a href="us/en/products-and-innovations/services-and-solutions.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Services &amp; Solutions</div>
 														</a>
 
-														<a href="us/en/products-and-innovations/technologies.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Technologies</div>
 														</a>
 
-														<a href="us/en/products-and-innovations/collaborations.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Collaborations</div>
 														</a>
 													</div>
@@ -624,7 +629,7 @@ blockquote.wd_pullquote:after {
 
 											<div class="cmp-sub-nav__item" data-target="Investors" style="display:none;">
 												<div class="cmp-sub-nav__background">
-													<a href="us/en/investors.html/index.html" class="cmp-sub-nav__content">
+													<a href="index.html" class="cmp-sub-nav__content">
 														<div class="main_heading">Investors</div>
 														<p>Goodyear has been an industry leader for more than 125 years, but
 															we believe our best is yet to come.</p>
@@ -632,31 +637,31 @@ blockquote.wd_pullquote:after {
 														<p> </p>
 													</a>
 													<div class="cmp-sub-nav__container">
-														<a href="us/en/investors/financial-news.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Financial News</div>
 														</a>
 
-														<a href="us/en/investors/events-and-presentations.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Events &amp; Presentations</div>
 														</a>
 
-														<a href="us/en/investors/reports-and-filings.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Reports &amp; Filings</div>
 														</a>
 
-														<a href="us/en/investors/stock-information.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Stock Information</div>
 														</a>
 
-														<a href="us/en/investors/governance.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Governance</div>
 														</a>
 
-														<a href="us/en/investors/investor-contacts.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Investor Contacts</div>
 														</a>
 
-														<a href="us/en/investors/investor-alerts.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Investor Alerts</div>
 														</a>
 													</div>
@@ -672,7 +677,7 @@ blockquote.wd_pullquote:after {
 															innovation.</p>
 													</a>
 													<div class="cmp-sub-nav__container">
-														<a href="news/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">All News</div>
 														</a>
 
@@ -680,11 +685,11 @@ blockquote.wd_pullquote:after {
 															<div class="sub_heading">News Alerts</div>
 														</a>
 
-														<a href="us/en/company/contact-us/media-contacts.html/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Media Contacts</div>
 														</a>
 
-														<a href="media-gallery/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">Media Gallery</div>
 														</a>
 
@@ -696,7 +701,7 @@ blockquote.wd_pullquote:after {
 										<ul class="cmp-sub-nav-mobile" id="mySidenav" style="display: none;">
 											<li class="cmp-sub-nav__item cmp-sub-nav__background cmp-megamenu-mobile" data-target="Company">
 
-												<a href="us/en/company.html/index.html" class="cmp-sub-nav__content cmp-sub-nav__content_mobile ">
+												<a href="index.html" class="cmp-sub-nav__content cmp-sub-nav__content_mobile ">
 													<div class="main_heading_mobile">Company</div>
 
 
@@ -708,35 +713,35 @@ blockquote.wd_pullquote:after {
 												<!-- child Elements -->
 												<ul class="cmp-sub-mobile" style="display:none;">
 													<li class="cmp-sub-nav__container cmp-sub-nav__container_mobile">
-														<a href="us/en/company/strategy.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Strategy</div>
 														</a>
 
-														<a href="us/en/company/working-at-goodyear.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Working at Goodyear</div>
 														</a>
 
-														<a href="us/en/company/awards.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Awards</div>
 														</a>
 
-														<a href="us/en/company/blimp.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Blimp</div>
 														</a>
 
-														<a href="us/en/company/leadership.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Leadership</div>
 														</a>
 
-														<a href="us/en/company/locations.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Locations</div>
 														</a>
 
-														<a href="us/en/company/contact-us.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Contact Us</div>
 														</a>
 
-														<a href="us/en/company/history.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">History</div>
 														</a>
 													</li>
@@ -747,7 +752,7 @@ blockquote.wd_pullquote:after {
 
 											<li class="cmp-sub-nav__item cmp-sub-nav__background cmp-megamenu-mobile" data-target="Commitments">
 
-												<a href="us/en/commitments.html/index.html" class="cmp-sub-nav__content cmp-sub-nav__content_mobile ">
+												<a href="index.html" class="cmp-sub-nav__content cmp-sub-nav__content_mobile ">
 													<div class="main_heading_mobile">Commitments</div>
 
 
@@ -759,24 +764,24 @@ blockquote.wd_pullquote:after {
 												<!-- child Elements -->
 												<ul class="cmp-sub-mobile" style="display:none;">
 													<li class="cmp-sub-nav__container cmp-sub-nav__container_mobile">
-														<a href="us/en/commitments/acting-with-integrity.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Acting with Integrity</div>
 														</a>
 
-														<a href="us/en/commitments/sourcing-sustainably.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Sourcing Sustainably</div>
 														</a>
 
-														<a href="us/en/commitments/operating-responsibly.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Operating Responsibly</div>
 														</a>
 
-														<a href="us/en/commitments/engaging-associates-and-communities.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Engaging Associates &amp;
 																Communities</div>
 														</a>
 
-														<a href="us/en/commitments/reports-and-policies.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Report &amp; Policies</div>
 														</a>
 
@@ -791,7 +796,7 @@ blockquote.wd_pullquote:after {
 
 											<li class="cmp-sub-nav__item cmp-sub-nav__background cmp-megamenu-mobile" data-target="Products &amp; Innovations">
 
-												<a href="us/en/products-and-innovations.html/index.html" class="cmp-sub-nav__content cmp-sub-nav__content_mobile ">
+												<a href="index.html" class="cmp-sub-nav__content cmp-sub-nav__content_mobile ">
 													<div class="main_heading_mobile">Products &amp; Innovations</div>
 
 
@@ -803,23 +808,23 @@ blockquote.wd_pullquote:after {
 												<!-- child Elements -->
 												<ul class="cmp-sub-mobile" style="display:none;">
 													<li class="cmp-sub-nav__container cmp-sub-nav__container_mobile">
-														<a href="us/en/products-and-innovations/tires.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Tires</div>
 														</a>
 
-														<a href="us/en/products-and-innovations/brands.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Brands</div>
 														</a>
 
-														<a href="us/en/products-and-innovations/services-and-solutions.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Services &amp; Solutions</div>
 														</a>
 
-														<a href="us/en/products-and-innovations/technologies.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Technologies</div>
 														</a>
 
-														<a href="us/en/products-and-innovations/collaborations.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Collaborations</div>
 														</a>
 													</li>
@@ -830,7 +835,7 @@ blockquote.wd_pullquote:after {
 
 											<li class="cmp-sub-nav__item cmp-sub-nav__background cmp-megamenu-mobile" data-target="Investors">
 
-												<a href="us/en/investors.html/index.html" class="cmp-sub-nav__content cmp-sub-nav__content_mobile ">
+												<a href="index.html" class="cmp-sub-nav__content cmp-sub-nav__content_mobile ">
 													<div class="main_heading_mobile">Investors</div>
 
 
@@ -842,31 +847,31 @@ blockquote.wd_pullquote:after {
 												<!-- child Elements -->
 												<ul class="cmp-sub-mobile" style="display:none;">
 													<li class="cmp-sub-nav__container cmp-sub-nav__container_mobile">
-														<a href="us/en/investors/financial-news.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Financial News</div>
 														</a>
 
-														<a href="us/en/investors/events-and-presentations.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Events &amp; Presentations</div>
 														</a>
 
-														<a href="us/en/investors/reports-and-filings.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Reports &amp; Filings</div>
 														</a>
 
-														<a href="us/en/investors/stock-information.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Stock Information</div>
 														</a>
 
-														<a href="us/en/investors/governance.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Governance</div>
 														</a>
 
-														<a href="us/en/investors/investor-contacts.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Investor Contacts</div>
 														</a>
 
-														<a href="us/en/investors/investor-alerts.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Investor Alerts</div>
 														</a>
 													</li>
@@ -889,7 +894,7 @@ blockquote.wd_pullquote:after {
 												<!-- child Elements -->
 												<ul class="cmp-sub-mobile" style="display:none;">
 													<li class="cmp-sub-nav__container cmp-sub-nav__container_mobile">
-														<a href="news/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">All News</div>
 														</a>
 
@@ -897,11 +902,11 @@ blockquote.wd_pullquote:after {
 															<div class="sub_heading_mobile">News Alerts</div>
 														</a>
 
-														<a href="us/en/company/contact-us/media-contacts.html/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Media Contacts</div>
 														</a>
 
-														<a href="media-gallery/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">Media Gallery</div>
 														</a>
 
@@ -929,8 +934,8 @@ blockquote.wd_pullquote:after {
 
 
 					<div class="breadcrumb">
-	<a href="index.php/index.html">Newsroom</a>
-<a href="news/index.html" target="_self" class="nav">All News</a>
+	<a href="index.html">Newsroom</a>
+<a href="index.html" target="_self" class="nav">All News</a>
 <span class="wd_current-page">News</span></div>
 	
 					<div class="wd_home_hero cmp-container--max-width">
@@ -1037,7 +1042,7 @@ margin:0in;
 <p>Goodyear's motorsport legacy lives on through its role as the exclusive tire supplier for some of the world's most prestigious racing series. At the heart of this legacy is the iconic Eagle tire, a benchmark of performance and reliability that continues to set the standard across diverse racing disciplines.</p>
 <p>"Motorsport is a central pillar of our brand strategy," said Roland. "It's where our technology, performance and brand identity converge. The best and fastest tires in the world have Goodyear written all over them, and racing provides the ultimate proving ground - demonstrating the speed, precision and reliability that define our products."</p>
 <p>Backed by more than a century of racing heritage, Goodyear Racing is charting a unified, future-focused motorsport strategy designed to fuel innovation, amplify brand impact and drive strategic growth across the company.</p>
-<p><b>About The Goodyear Tire &amp; Rubber Company&nbsp;<br></b>Goodyear is one of the world's largest tire companies. It employs about 68,000 people and manufactures its products in 53 facilities in 20 countries around the world. Its two Innovation Centers in <span class="xn-location">Akron, Ohio</span>, and Colmar-Berg, <span class="xn-location">Luxembourg</span>, strive to develop state-of-the-art products and services that set the technology and performance standard for the industry. For more information about Goodyear and its products, go to <a href="us/en.html/index.html" target="_blank" rel="nofollow">www.goodyear.com/corporate</a>.</p>
+<p><b>About The Goodyear Tire &amp; Rubber Company&nbsp;<br></b>Goodyear is one of the world's largest tire companies. It employs about 68,000 people and manufactures its products in 53 facilities in 20 countries around the world. Its two Innovation Centers in <span class="xn-location">Akron, Ohio</span>, and Colmar-Berg, <span class="xn-location">Luxembourg</span>, strive to develop state-of-the-art products and services that set the technology and performance standard for the industry. For more information about Goodyear and its products, go to <a href="index.html" target="_blank" rel="nofollow">www.goodyear.com/corporate</a>.</p>
 <p><b>CONTACT:&nbsp;</b><br><span class="xn-person">Sarah Factor</span><br>216-385-3433<br><a href="mailto:Sarah_Factor@goodyear.com" target="_blank" rel="nofollow">Sarah_Factor@goodyear.com</a></p>
 <p>&nbsp;</p>
 
@@ -1054,22 +1059,22 @@ margin:0in;
 				
 			
 
-<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="news/index.html">Racing</a></li></ul>
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="index.html">Racing</a></li></ul>
 <!-- ITEMDATE: 2025-09-30 08:30:00 EDT -->
 
 </div>
 </div><div class="wd_featureboxes_right_side wd_featureboxes-vertical fr-view"><div class="wd_toolbar wd_toolbar-detail"><div class="wd_featurebox_title">Share Article</div><ul class="wd_tools"><li class="wd_tool wd_tool-print"><span class="wd_tool_icon"><a onclick="view_printable(); return false;" rel="nofollow" href="#print" title="Open a printable version of this page"><span class="fa fa-print"></span><span class="wd_sr-only wd_sr-only-focusable">Open a printable version of this page</span></a></span></li><li class="wd_tool wd_tool-email"><span class="wd_tool_icon"><a onclick="window.location.href = 'mailto:?subject=Goodyear%20Launches%20Global%20Racing%20Organization%20to%20Enhance%20Motorsport%20Strategy%20Worldwide%20-%20Sep%2030%2C%202025&amp;body='+encodeURIComponent(window.location.href);return false;" href="#email" title="Email the URL of this page to a friend"><span class="fa fa-envelope"></span><span class="wd_sr-only wd_sr-only-focusable">Email the URL of this page to a friend</span></a></span></li><li class="wd_tool wd_tool-socialshare_linkedin"><span class="wd_tool_icon">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide%2Findex.htmls%3D20295%26item%3D123449" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
+                    <a href="https://www.linkedin.com/" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
                     <span class="fa fa-linkedin"></span>
 		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on LinkedIn</span>
                     </a>
                 </span></li><li class="wd_tool wd_tool-socialshare_twitter"><span class="wd_tool_icon">
-                    <a href="https://x.com/share?url=2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide%2Findex.htmls%3D20295%26item%3D123449" target="_blank" title="X Share" style="background-color:#000;">
+                    <a href="https://x.com/" target="_blank" title="X Share" style="background-color:#000;">
                     <span class="fa fa-twitter"></span>
 		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on X</span>
                     </a>
                 </span></li><li class="wd_tool wd_tool-socialshare_facebook"><span class="wd_tool_icon">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide%2Findex.htmls%3D20295%26item%3D123449" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
+                    <a href="https://www.facebook.com/" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
                     <span class="fa fa-facebook"></span>
 		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on Facebook</span>
                     </a>
@@ -1079,34 +1084,34 @@ margin:0in;
 <div class="subscribe_link"><a href="index.html"><span class="wd_subscribe_email-icon fa fa-envelope-o"></span></a> <a href="index.html">News Alerts</a></div>
 
 	
-		<a class="wd_link-wrap" href="2026-05-06-Goodyear-Announces-First-Quarter-2026-Results/index.html"><div class="item">
+		<a class="wd_link-wrap" href="index.html"><div class="item">
 			
 			<div class="item-inner">
-			<div class="wd_title"><a href="2026-05-06-Goodyear-Announces-First-Quarter-2026-Results/index.html">Goodyear Announces First Quarter 2026 Results</a></div>
+			<div class="wd_title"><a href="index.html">Goodyear Announces First Quarter 2026 Results</a></div>
 			<div class="wd_date">May 6, 2026</div>
 </div>
 		</div></a>
 	
-		<a class="wd_link-wrap" href="2026-05-06-Goodyear-Announces-First-Quarter-2026-Results/index.html"><div class="item">
-			<div class="wd_thumbnail"><a href="2026-05-01-Did-Someone-Say-Horsepower-Goodyear-Launches-Global-Campaign-Celebrating-Eagle-Performance-Tire/index.html"><img src="https://mma.prnewswire.com/media/2971059/Fast_Is_In_Us___Czinger_Goodyear.jpg?p=thumbnail" border="0"></a></div>
+		<a class="wd_link-wrap" href="index.html"><div class="item">
+			<div class="wd_thumbnail"><a href="index.html"><img src="https://mma.prnewswire.com/media/2971059/Fast_Is_In_Us___Czinger_Goodyear.jpg?p=thumbnail" border="0"></a></div>
 			<div class="item-inner">
-			<div class="wd_title"><a href="2026-05-01-Did-Someone-Say-Horsepower-Goodyear-Launches-Global-Campaign-Celebrating-Eagle-Performance-Tire/index.html">Did Someone Say Horsepower? Goodyear Launches Global Campaign Celebrating Eagle Performance Tire</a></div>
+			<div class="wd_title"><a href="index.html">Did Someone Say Horsepower? Goodyear Launches Global Campaign Celebrating Eagle Performance Tire</a></div>
 			<div class="wd_date">May 1, 2026</div>
 </div>
 		</div></a>
 	
-		<a class="wd_link-wrap" href="2026-05-06-Goodyear-Announces-First-Quarter-2026-Results/index.html"><div class="item">
+		<a class="wd_link-wrap" href="index.html"><div class="item">
 			
 			<div class="item-inner">
-			<div class="wd_title"><a href="2026-04-29-Goodyear-to-Announce-First-Quarter-2026-Financial-Results/index.html">Goodyear to Announce First Quarter 2026 Financial Results</a></div>
+			<div class="wd_title"><a href="index.html">Goodyear to Announce First Quarter 2026 Financial Results</a></div>
 			<div class="wd_date">Apr 29, 2026</div>
 </div>
 		</div></a>
 	
-		<a class="wd_link-wrap" href="2026-05-06-Goodyear-Announces-First-Quarter-2026-Results/index.html"><div class="item">
-			<div class="wd_thumbnail"><a href="2026-04-21-GOODYEAR-NAMES-TRAVIS-PARMAN-AS-CHIEF-COMMUNICATIONS-OFFICER/index.html"><img src="https://mma.prnewswire.com/media/2959648/Travis_Parman_headshot.jpg?p=thumbnail" border="0"></a></div>
+		<a class="wd_link-wrap" href="index.html"><div class="item">
+			<div class="wd_thumbnail"><a href="index.html"><img src="https://mma.prnewswire.com/media/2959648/Travis_Parman_headshot.jpg?p=thumbnail" border="0"></a></div>
 			<div class="item-inner">
-			<div class="wd_title"><a href="2026-04-21-GOODYEAR-NAMES-TRAVIS-PARMAN-AS-CHIEF-COMMUNICATIONS-OFFICER/index.html">GOODYEAR NAMES TRAVIS PARMAN AS CHIEF COMMUNICATIONS OFFICER</a></div>
+			<div class="wd_title"><a href="index.html">GOODYEAR NAMES TRAVIS PARMAN AS CHIEF COMMUNICATIONS OFFICER</a></div>
 			<div class="wd_date">Apr 21, 2026</div>
 </div>
 		</div></a>
@@ -1114,21 +1119,21 @@ margin:0in;
 
 
 </div>
-<p class="more"><a href="news/index.html" class="wd_anim wd_primary"><span>All News</span></a></p>
+<p class="more"><a href="index.html" class="wd_anim wd_primary"><span>All News</span></a></p>
 </div></div></div>
 						</div>
 						<div class="wd_featureboxes_right_side wd_featureboxes-vertical fr-view"><div class="wd_toolbar wd_toolbar-detail"><div class="wd_featurebox_title">Share Article</div><ul class="wd_tools"><li class="wd_tool wd_tool-print"><span class="wd_tool_icon"><a onclick="view_printable(); return false;" rel="nofollow" href="#print" title="Open a printable version of this page"><span class="fa fa-print"></span><span class="wd_sr-only wd_sr-only-focusable">Open a printable version of this page</span></a></span></li><li class="wd_tool wd_tool-email"><span class="wd_tool_icon"><a onclick="window.location.href = 'mailto:?subject=Goodyear%20Launches%20Global%20Racing%20Organization%20to%20Enhance%20Motorsport%20Strategy%20Worldwide%20-%20Sep%2030%2C%202025&amp;body='+encodeURIComponent(window.location.href);return false;" href="#email" title="Email the URL of this page to a friend"><span class="fa fa-envelope"></span><span class="wd_sr-only wd_sr-only-focusable">Email the URL of this page to a friend</span></a></span></li><li class="wd_tool wd_tool-socialshare_linkedin"><span class="wd_tool_icon">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide%2Findex.htmls%3D20295%26item%3D123449" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
+                    <a href="https://www.linkedin.com/" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
                     <span class="fa fa-linkedin"></span>
 		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on LinkedIn</span>
                     </a>
                 </span></li><li class="wd_tool wd_tool-socialshare_twitter"><span class="wd_tool_icon">
-                    <a href="https://x.com/share?url=2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide%2Findex.htmls%3D20295%26item%3D123449" target="_blank" title="X Share" style="background-color:#000;">
+                    <a href="https://x.com/" target="_blank" title="X Share" style="background-color:#000;">
                     <span class="fa fa-twitter"></span>
 		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on X</span>
                     </a>
                 </span></li><li class="wd_tool wd_tool-socialshare_facebook"><span class="wd_tool_icon">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide%2Findex.htmls%3D20295%26item%3D123449" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
+                    <a href="https://www.facebook.com/" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
                     <span class="fa fa-facebook"></span>
 		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on Facebook</span>
                     </a>
@@ -1138,34 +1143,34 @@ margin:0in;
 <div class="subscribe_link"><a href="index.html"><span class="wd_subscribe_email-icon fa fa-envelope-o"></span></a> <a href="index.html">News Alerts</a></div>
 
 	
-		<a class="wd_link-wrap" href="2026-05-06-Goodyear-Announces-First-Quarter-2026-Results/index.html"><div class="item">
+		<a class="wd_link-wrap" href="index.html"><div class="item">
 			
 			<div class="item-inner">
-			<div class="wd_title"><a href="2026-05-06-Goodyear-Announces-First-Quarter-2026-Results/index.html">Goodyear Announces First Quarter 2026 Results</a></div>
+			<div class="wd_title"><a href="index.html">Goodyear Announces First Quarter 2026 Results</a></div>
 			<div class="wd_date">May 6, 2026</div>
 </div>
 		</div></a>
 	
-		<a class="wd_link-wrap" href="2026-05-06-Goodyear-Announces-First-Quarter-2026-Results/index.html"><div class="item">
-			<div class="wd_thumbnail"><a href="2026-05-01-Did-Someone-Say-Horsepower-Goodyear-Launches-Global-Campaign-Celebrating-Eagle-Performance-Tire/index.html"><img src="https://mma.prnewswire.com/media/2971059/Fast_Is_In_Us___Czinger_Goodyear.jpg?p=thumbnail" border="0"></a></div>
+		<a class="wd_link-wrap" href="index.html"><div class="item">
+			<div class="wd_thumbnail"><a href="index.html"><img src="https://mma.prnewswire.com/media/2971059/Fast_Is_In_Us___Czinger_Goodyear.jpg?p=thumbnail" border="0"></a></div>
 			<div class="item-inner">
-			<div class="wd_title"><a href="2026-05-01-Did-Someone-Say-Horsepower-Goodyear-Launches-Global-Campaign-Celebrating-Eagle-Performance-Tire/index.html">Did Someone Say Horsepower? Goodyear Launches Global Campaign Celebrating Eagle Performance Tire</a></div>
+			<div class="wd_title"><a href="index.html">Did Someone Say Horsepower? Goodyear Launches Global Campaign Celebrating Eagle Performance Tire</a></div>
 			<div class="wd_date">May 1, 2026</div>
 </div>
 		</div></a>
 	
-		<a class="wd_link-wrap" href="2026-05-06-Goodyear-Announces-First-Quarter-2026-Results/index.html"><div class="item">
+		<a class="wd_link-wrap" href="index.html"><div class="item">
 			
 			<div class="item-inner">
-			<div class="wd_title"><a href="2026-04-29-Goodyear-to-Announce-First-Quarter-2026-Financial-Results/index.html">Goodyear to Announce First Quarter 2026 Financial Results</a></div>
+			<div class="wd_title"><a href="index.html">Goodyear to Announce First Quarter 2026 Financial Results</a></div>
 			<div class="wd_date">Apr 29, 2026</div>
 </div>
 		</div></a>
 	
-		<a class="wd_link-wrap" href="2026-05-06-Goodyear-Announces-First-Quarter-2026-Results/index.html"><div class="item">
-			<div class="wd_thumbnail"><a href="2026-04-21-GOODYEAR-NAMES-TRAVIS-PARMAN-AS-CHIEF-COMMUNICATIONS-OFFICER/index.html"><img src="https://mma.prnewswire.com/media/2959648/Travis_Parman_headshot.jpg?p=thumbnail" border="0"></a></div>
+		<a class="wd_link-wrap" href="index.html"><div class="item">
+			<div class="wd_thumbnail"><a href="index.html"><img src="https://mma.prnewswire.com/media/2959648/Travis_Parman_headshot.jpg?p=thumbnail" border="0"></a></div>
 			<div class="item-inner">
-			<div class="wd_title"><a href="2026-04-21-GOODYEAR-NAMES-TRAVIS-PARMAN-AS-CHIEF-COMMUNICATIONS-OFFICER/index.html">GOODYEAR NAMES TRAVIS PARMAN AS CHIEF COMMUNICATIONS OFFICER</a></div>
+			<div class="wd_title"><a href="index.html">GOODYEAR NAMES TRAVIS PARMAN AS CHIEF COMMUNICATIONS OFFICER</a></div>
 			<div class="wd_date">Apr 21, 2026</div>
 </div>
 		</div></a>
@@ -1173,7 +1178,7 @@ margin:0in;
 
 
 </div>
-<p class="more"><a href="news/index.html" class="wd_anim wd_primary"><span>All News</span></a></p>
+<p class="more"><a href="index.html" class="wd_anim wd_primary"><span>All News</span></a></p>
 </div></div></div>
 						
 					
@@ -1261,13 +1266,13 @@ margin:0in;
 
 																			<div class="cmp-footer-menu">
 																				<div class="cmp-footer-menu__item" data-target="Company">
-																					<a href="us/en/company.html/index.html" class="cmp-footer-menu__link">
+																					<a href="index.html" class="cmp-footer-menu__link">
 																						Company
 																					</a>
 																				</div>
 
 																				<div class="cmp-footer-menu__item" data-target="Commitments">
-																					<a href="us/en/commitments.html/index.html" class="cmp-footer-menu__link">
+																					<a href="index.html" class="cmp-footer-menu__link">
 																						Commitments
 																					</a>
 																				</div>
@@ -1279,7 +1284,7 @@ margin:0in;
 																				</div>
 
 																				<div class="cmp-footer-menu__item" data-target="Investors">
-																					<a href="us/en/investors.html/index.html" class="cmp-footer-menu__link">
+																					<a href="index.html" class="cmp-footer-menu__link">
 																						Investors
 																					</a>
 																				</div>
@@ -1302,7 +1307,7 @@ margin:0in;
 
 																			<div class="cmp-footer-menu">
 																				<div class="cmp-footer-menu__item" data-target="Products &amp; Innovations">
-																					<a href="us/en/products-and-innovations.html/index.html" class="cmp-footer-menu__link">
+																					<a href="index.html" class="cmp-footer-menu__link">
 																						Products &amp; Innovations
 																					</a>
 																				</div>
@@ -1314,13 +1319,13 @@ margin:0in;
 																				</div>
 
 																				<div class="cmp-footer-menu__item" data-target="Goodyear Suppliers">
-																					<a href="us/en/more/goodyear-suppliers.html/index.html" class="cmp-footer-menu__link">
+																					<a href="index.html" class="cmp-footer-menu__link">
 																						Goodyear Suppliers
 																					</a>
 																				</div>
 
 																				<div class="cmp-footer-menu__item" data-target="Insurance Verification">
-																					<a href="us/en/more/insurance-verification.html/index.html" class="cmp-footer-menu__link">
+																					<a href="index.html" class="cmp-footer-menu__link">
 																						Insurance Verification
 																					</a>
 																				</div>
@@ -1343,19 +1348,19 @@ margin:0in;
 
 																			<div class="cmp-footer-menu">
 																				<div class="cmp-footer-menu__item" data-target="Contact Us">
-																					<a href="us/en/company/contact-us.html/index.html" class="cmp-footer-menu__link">
+																					<a href="index.html" class="cmp-footer-menu__link">
 																						Contact Us
 																					</a>
 																				</div>
 
 																				<div class="cmp-footer-menu__item" data-target="Governance">
-																					<a href="us/en/investors/governance.html/index.html" class="cmp-footer-menu__link">
+																					<a href="index.html" class="cmp-footer-menu__link">
 																						Governance
 																					</a>
 																				</div>
 
 																				<div class="cmp-footer-menu__item" data-target="Reports &amp; Policies">
-																					<a href="us/en/commitments/reports-and-policies.html/index.html" class="cmp-footer-menu__link">
+																					<a href="index.html" class="cmp-footer-menu__link">
 																						Reports &amp; Policies
 																					</a>
 																				</div>
@@ -1385,23 +1390,23 @@ margin:0in;
 
 
 																			<div class="cmp-footer-social-links__icons" page-path-url="/content/goodyear-corp/us/en/media" social-links-data="TemplatedResourceImpl, type=goodyear-corp/components/footersociallinks, path=/content/experience-fragments/goodyear-corp/us/en/site/footer/footer-v2/jcr:content/root/container_1967570642/container/container_1414193570/footersociallinks">
-																				<a href="https://www.facebook.com/GoodyearNorthAmerica/" class="cmp-footer-social-links__item" target="_blank">
+																				<a href="https://www.facebook.com/" class="cmp-footer-social-links__item" target="_blank">
 																					<img src="assets/news.goodyear.com/images/social-icon-facebook.svg" alt="Facebook">
 																				</a>
 
-																				<a href="https://x.com/goodyear" class="cmp-footer-social-links__item" target="_blank">
+																				<a href="https://x.com/" class="cmp-footer-social-links__item" target="_blank">
 																					<img src="assets/news.goodyear.com/images/social-icon-x.svg" alt="X Logo">
 																				</a>
 
-																				<a href="https://www.linkedin.com/company/goodyear/" class="cmp-footer-social-links__item" target="_blank">
+																				<a href="https://www.linkedin.com/" class="cmp-footer-social-links__item" target="_blank">
 																					<img src="assets/news.goodyear.com/images/social-icon-linkedin.svg" alt="LinkedIn">
 																				</a>
 
-																				<a href="https://www.youtube.com/user/Goodyear" class="cmp-footer-social-links__item" target="_blank">
+																				<a href="https://www.youtube.com/" class="cmp-footer-social-links__item" target="_blank">
 																					<img src="assets/news.goodyear.com/images/social-icon-youtube.svg" alt="YouTube">
 																				</a>
 
-																				<a href="https://www.instagram.com/goodyear/?hl=en" class="cmp-footer-social-links__item" target="_blank">
+																				<a href="https://www.instagram.com/" class="cmp-footer-social-links__item" target="_blank">
 																					<img src="assets/news.goodyear.com/images/social-icon-instagram.svg" alt="Instagram">
 																				</a>
 																			</div>
@@ -1423,9 +1428,9 @@ margin:0in;
 																		</p>
 
 																		<div class="site-map">
-																			<a class="cmp-footer-menu__link" href="international/index.html" target="_blank">International Site Directory</a><span class="footer-break">|</span>
-																			<a class="cmp-footer-menu__link" href="us/en/more/sitemap.html/index.html">Site Map</a><span class="footer-break">|</span>
-																			<a class="cmp-footer-menu__link" href="us/en/more/terms-conditions-and-privacy-policy.html/index.html">Terms, Conditions &amp; Privacy Policy</a><span class="footer-break">|</span>
+																			<a class="cmp-footer-menu__link" href="index.html" target="_blank">International Site Directory</a><span class="footer-break">|</span>
+																			<a class="cmp-footer-menu__link" href="index.html">Site Map</a><span class="footer-break">|</span>
+																			<a class="cmp-footer-menu__link" href="index.html">Terms, Conditions &amp; Privacy Policy</a><span class="footer-break">|</span>
 																			<button id="ot-sdk-btn" class="ot-sdk-show-settings">Do Not Sell or Share My Personal Information</button>
 
 																		</div>
@@ -1537,7 +1542,7 @@ margin:0in;
 						</form>
 						<br>
 						<div>
-							<a class="policy" target="_blank" href="us/en/more/terms-conditions-and-privacy-policy.html/index.html">Privacy
+							<a class="policy" target="_blank" href="index.html">Privacy
 								Policy</a>
 						</div>
 					</div>
@@ -1628,6 +1633,11 @@ margin:0in;
     g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
   })();
 </script>
+
+
+
+
+
 
 
 

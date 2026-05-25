@@ -68,9 +68,8 @@ if ($route === '') {
 if (!is_file($target)) {
     http_response_code(404);
     header('Content-Type: text/html; charset=utf-8');
-    echo '<!DOCTYPE html><html><head><title>Not found</title></head><body><h1>404</h1><p><a href="' .
-        htmlspecialchars(GY_BASE_URL . '/', ENT_QUOTES, 'UTF-8') .
-        '">Home</a></p></body></html>';
+    gy_start_output_rewrite();
+    include __DIR__ . '/404.php';
     exit;
 }
 
