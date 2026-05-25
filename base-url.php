@@ -109,6 +109,130 @@ function gy_valid_page_routes(): array
     return $validRoutes;
 }
 
+function gy_is_static_asset_url(string $urlPath): bool
+{
+    return (bool)preg_match(
+        '~\.(png|jpe?g|gif|svg|webp|avif|ico|woff2?|ttf|eot|css|js|mjs|map|xml)(\?|#|$)~i',
+        $urlPath
+    )
+        || preg_match('~/(?:_next/static|images)/~i', $urlPath);
+}
+
+function gy_route_from_goodyear_path(string $pathname, string $host): string
+{
+    $route = trim($pathname, '/');
+    $hostLower = strtolower($host);
+
+    if ($hostLower === 'news.goodyear.com' || $hostLower === 'corporate.goodyear.com') {
+        return $route;
+    }
+
+    if ($route === '' || preg_match('/^en[-_]us$/i', $route)) {
+        return '';
+    }
+
+    $route = preg_replace('/^en-us\/?/i', '-us/', $route) ?? $route;
+    $route = preg_replace('/^en_US\/?/i', '-us/', $route) ?? $route;
+    $route = preg_replace('/^en-us$/i', '-us', $route) ?? $route;
+
+    if ($route === '-us' || $route === '-us/') {
+        return '';
+    }
+
+    $route = preg_replace('/\/index\.html$/i', '', $route) ?? $route;
+
+    if ($route === 'corporate' || str_starts_with($route, 'corporate/')) {
+        return 'us/en.html';
+    }
+
+    return $route;
+}
+
+function gy_goodyear_absolute_to_local_href(string $absoluteUrl): ?string
+{
+    $cleaned = html_entity_decode(trim($absoluteUrl), ENT_QUOTES | ENT_HTML5, 'UTF-8');
+    $cleaned = rtrim($cleaned, "\\\",}' ");
+
+    if ($cleaned === '' || !preg_match('/goodyear\.com/i', $cleaned)) {
+        return null;
+    }
+
+    $parts = parse_url($cleaned);
+    if (!is_array($parts) || empty($parts['host'])) {
+        return null;
+    }
+
+    $host = strtolower((string)$parts['host']);
+    $path = (string)($parts['path'] ?? '');
+
+    if (gy_is_static_asset_url($path) && !preg_match('~/sitemap\.xml$~i', $path)) {
+        return null;
+    }
+
+    $route = gy_route_from_goodyear_path($path, $host);
+    $validRoutes = gy_valid_page_routes();
+
+    if (preg_match('~/sitemap\.xml$~i', $path) && isset($validRoutes['-us/sitemap'])) {
+        return '-us/sitemap/index.html' . (isset($parts['query']) ? ('?' . $parts['query']) : '')
+            . (isset($parts['fragment']) ? ('#' . $parts['fragment']) : '');
+    }
+
+    if ($route !== '' && !isset($validRoutes[$route])) {
+        $route = '';
+    }
+
+    $query = isset($parts['query']) ? ('?' . $parts['query']) : '';
+    $hash = isset($parts['fragment']) ? ('#' . $parts['fragment']) : '';
+
+    if ($route === '') {
+        return 'index.html' . $query . $hash;
+    }
+
+    return $route . '/index.html' . $query . $hash;
+}
+
+function gy_rewrite_external_goodyear_urls(string $html): string
+{
+    $rewrite = static function (string $match): string {
+        $local = gy_goodyear_absolute_to_local_href($match);
+        if ($local === null) {
+            return $match;
+        }
+
+        $resolved = gy_resolve_internal_href('', $local);
+        if ($resolved !== null) {
+            return $resolved;
+        }
+
+        return GY_BASE_URL . ($local === 'index.html' ? '' : '/' . preg_replace('~/index\.html$~', '', $local));
+    };
+
+    $html = preg_replace_callback(
+        '~https?://(?:[a-z0-9-]+\.)*goodyear\.com[^"\'\s<>\\\\]*~i',
+        static function (array $m) use ($rewrite): string {
+            return $rewrite($m[0]);
+        },
+        $html
+    ) ?? $html;
+
+    $html = preg_replace_callback(
+        '~(?:https?%3A%2F%2F)(?:[a-z0-9-]+\.)*goodyear\.com[^"\'\s&<>\\\\]*~i',
+        static function (array $m) use ($rewrite): string {
+            $decoded = rawurldecode(preg_replace('/^https?%3A%2F%2F/i', 'https://', $m[0]) ?? $m[0]);
+            $local = gy_goodyear_absolute_to_local_href($decoded);
+            if ($local === null) {
+                return $m[0];
+            }
+
+            $resolved = gy_resolve_internal_href('', $local);
+            return $resolved !== null ? rawurlencode($resolved) : rawurlencode($local);
+        },
+        $html
+    ) ?? $html;
+
+    return $html;
+}
+
 function gy_resolve_internal_href(string $currentRoute, string $href): ?string
 {
     $href = trim($href);
@@ -265,6 +389,20 @@ function gy_rewrite_html_urls(string $html): string
     $html = preg_replace(
         '~\b(href)=(["\'])' . preg_quote($base, '~') . '/index\.html\2~i',
         'href=$2' . $base . '$2',
+        $html
+    ) ?? $html;
+
+    $html = gy_rewrite_external_goodyear_urls($html);
+
+    $html = preg_replace_callback(
+        '~\bcontent=(["\'])([^"\']+)\1~i',
+        static function (array $m) use ($currentRoute): string {
+            $resolved = gy_resolve_internal_href($currentRoute, $m[2]);
+            if ($resolved === null) {
+                return $m[0];
+            }
+            return 'content=' . $m[1] . $resolved . $m[1];
+        },
         $html
     ) ?? $html;
 

@@ -260,7 +260,7 @@ blockquote.wd_pullquote:after {
  <meta name="twitter:description" content="The Goodyear Tire &amp; Rubber Company (NASDAQ: GT) today announced the formation of its new Global Racing organization, a strategic initiative that unifies all motorsport operations under a single...">
  <meta name="twitter:image" content="https://mma.prnewswire.com/media/95226/goodyear_tire_and_rubber_company_logo.jpg?p=twitter">
  <meta property="og:site_name" content="Media | Goodyear Corporate">
- <meta property="og:url" content="https://news.goodyear.com/2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide">
+ <meta property="og:url" content="2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide/index.html">
  <meta property="og:title" content="Goodyear Launches Global Racing Organization to Enhance Motorsport Strategy Worldwide">
  <meta property="og:description" content="The Goodyear Tire &amp; Rubber Company (NASDAQ: GT) today announced the formation of its new Global Racing organization, a strategic initiative that unifies all motorsport operations under a single...">
  <meta name="image" property="og:image" content="https://mma.prnewswire.com/media/95226/goodyear_tire_and_rubber_company_logo.jpg?p=facebook">
@@ -269,7 +269,7 @@ blockquote.wd_pullquote:after {
 	<link rel="stylesheet" type="text/css" href="assets/news.goodyear.com/css/template.css">
 	<link rel="stylesheet" type="text/css" href="assets/news.goodyear.com/css/wdcontent.css">
 	<link rel="stylesheet" type="text/css" href="assets/news.goodyear.com/css/megamenu.css">
-	<link rel="alternate" href="https://news.goodyear.com/news?pagetemplate=rss" type="application/rss+xml" title="News | Goodyear Corporate">
+	<link rel="alternate" href="index.html?pagetemplate=rss" type="application/rss+xml" title="News | Goodyear Corporate">
 
 <!-- begin spin_special_output(head_end) -->
 <!-- OneTrust Cookies Consent Notice start -->
@@ -279,7 +279,7 @@ blockquote.wd_pullquote:after {
 </script>
 <!-- OneTrust Cookies Consent Notice end -->
 
-<link rel="canonical" href="https://news.goodyear.com/2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide">
+<link rel="canonical" href="2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide/index.html">
 <!-- end spin_special_output(head_end) -->
 
 
@@ -291,7 +291,24 @@ blockquote.wd_pullquote:after {
 
 
 
-<link rel="stylesheet" href="assets/www.goodyear.com/_next/static/chunks/0k953pa8el3q2.css" data-precedence="next"><link rel="stylesheet" href="assets/www.goodyear.com/_next/static/chunks/0067i~25l6fzz.css" data-precedence="next"><link rel="stylesheet" href="assets/www.goodyear.com/_next/static/chunks/0kzk8oaawbib9.css" data-precedence="next"><link rel="stylesheet" href="assets/www.goodyear.com/_next/static/chunks/0wv~7np5699cz.css" data-precedence="next"><link rel="stylesheet" href="assets/www.goodyear.com/_next/static/chunks/0j8vmg010x01d.css" data-precedence="next"><link rel="stylesheet" href="assets/www.goodyear.com/_next/static/chunks/0u6t82tmszzvx.css" data-precedence="next"><link rel="stylesheet" href="assets/www.goodyear.com/_next/static/chunks/0d6sphkg4zv~j.css" data-precedence="next"><link rel="stylesheet" href="assets/www.goodyear.com/_next/static/chunks/0mtcuu7cd2iei.css" data-precedence="next"><link rel="stylesheet" href="assets/www.goodyear.com/_next/static/chunks/0ofso8yy536un.css"><link rel="stylesheet" href="assets/www.goodyear.com/_next/static/chunks/0qn.lnzz8gfbx.css"><link rel="stylesheet" href="assets/www.goodyear.com/_next/static/chunks/14c0cdxf7r0ka.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -377,25 +394,11 @@ blockquote.wd_pullquote:after {
   html {
     --header-stack-height: 156px;
   }
-  body:has(.stores) header[class*="group/header"] {
-    position: relative !important;
-    background: #fff !important;
-    background-image: none !important;
+  .swiper.offline-carousel-ready .swiper-wrapper {
+    transition: transform 0.35s ease;
   }
-  body:has(.stores) header[class*="group/header"] [class*="text-white"],
-  body:has(.stores) header[class*="group/header"] [class*="!text-white"],
-  body:has(.stores) header[class*="group/header"] .text-action-color-secondary {
-    color: #1a1a1a !important;
-  }
-  body:has(.stores) header[class*="group/header"] [class*="hover:text-action-text-link-primary-on-dark"] {
-    color: #1a1a1a !important;
-  }
-  body:has(.stores) header[class*="group/header"] [class*="after:bg-action-text-link-primary-on-dark"]::after {
-    background-color: #004ea8 !important;
-  }
-  body:has(.stores) header[class*="group/header"] nav#utilityNav,
-  body:has(.stores) header[class*="group/header"] nav#utilityNav a {
-    color: #1a1a1a !important;
+  .swiper.offline-carousel-ready .swiper-slide {
+    flex-shrink: 0;
   }
 </style></head>
 
@@ -436,7 +439,7 @@ blockquote.wd_pullquote:after {
 								<div class="button cmp-button-right cmp-button--header-black-banner aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--12 aem-GridColumn--offset--default--0">
 
 
-									<a id="button-0447fb2438" class="cmp-button" href="international/index.html" data-cmp-clickable="" data-cmp-data-layer="{&quot;button-0447fb2438&quot;:{&quot;@type&quot;:&quot;goodyear-corp/components/button&quot;,&quot;repo:modifyDate&quot;:&quot;2024-06-05T19:33:36Z&quot;,&quot;dc:title&quot;:&quot;All Goodyear Sites&quot;,&quot;xdm:linkURL&quot;:&quot;http://www.goodyear.com/en-US/international?expand=international&quot;}}">
+									<a id="button-0447fb2438" class="cmp-button" href="international/index.html" data-cmp-clickable="" data-cmp-data-layer="{&quot;button-0447fb2438&quot;:{&quot;@type&quot;:&quot;goodyear-corp/components/button&quot;,&quot;repo:modifyDate&quot;:&quot;2024-06-05T19:33:36Z&quot;,&quot;dc:title&quot;:&quot;All Goodyear Sites&quot;,&quot;xdm:linkURL&quot;:&quot;-us/international/index.html?expand=international">
 
 
 										<span class="cmp-button__text">
@@ -458,7 +461,7 @@ blockquote.wd_pullquote:after {
 									<div class="cmp-mega-menu">
 										<div class="cmp-mega-menu__container">
 											<div class="cmp-mega-menu__logo-container">
-												<a class="cmp-brandlogo" href="us/en.html/index.html" aria-label="Goodyear Corporate Logo">
+												<a class="cmp-brandlogo" href="index.html" aria-label="Goodyear Corporate Logo">
 													<span class="icon-goodyear-logo">
 														<img src="assets/news.goodyear.com/images/logo.svg" alt="">
 													</span>
@@ -497,7 +500,7 @@ blockquote.wd_pullquote:after {
 
 											<div class="shopping">
 												<span class="gy-megamenu-search" id="gy-menu-search"></span>
-												<a href="international/index.html" class="shopingHeader" data-link="https://www.goodyear.com/en-US/international" id="shoppingLink">Shop</a>
+												<a href="international/index.html" class="shopingHeader" data-link="-us/international/index.html" id="shoppingLink">Shop</a>
 											</div>
 										</div>
 										<div class="cmp-sub-nav" id="mySidenav">
@@ -673,7 +676,7 @@ blockquote.wd_pullquote:after {
 															<div class="sub_heading">All News</div>
 														</a>
 
-														<a href="news-alerts/index.html" class="cmp-sub-nav__link">
+														<a href="index.html" class="cmp-sub-nav__link">
 															<div class="sub_heading">News Alerts</div>
 														</a>
 
@@ -890,7 +893,7 @@ blockquote.wd_pullquote:after {
 															<div class="sub_heading_mobile">All News</div>
 														</a>
 
-														<a href="news-alerts/index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
+														<a href="index.html" class="cmp-sub-nav__link cmp-sub-nav-link-mobile">
 															<div class="sub_heading_mobile">News Alerts</div>
 														</a>
 
@@ -949,10 +952,7 @@ blockquote.wd_pullquote:after {
 
 				<!-- MAIN CONTENT -->
 
-				<header class="w-full transition-colors group/header bg-[linear-gradient(180deg,rgba(0,0,0,0.7)_0%,rgba(0,0,0,0)_100%)] absolute z-(--z-base)"><a class="hidden md:inline-block absolute -left-[10000%] overflow-hidden p-4 bg-white transition-all ease-in-out duration-200 focus:left-4 focus:overflow-visible focus:transition-all focus:ease-in-out focus:duration-200 z-(--z-topmost)" href="#main-content">Skip to main content</a><a class="hidden md:inline-block absolute -left-[10000%] overflow-hidden p-4 bg-white transition-all ease-in-out duration-200 focus:left-4 focus:overflow-visible focus:transition-all focus:ease-in-out focus:duration-200 z-(--z-topmost)" href="#global-footer">Skip to footer content</a><div><nav class=" py-padding-nav-8 sm:py-padding-nav-12 md:py-padding-nav-16 transition-transform ease-in-out z-(--z-base) relative bg-ui-100 sm:bg-transparent" id="utilityNav" aria-label="Utility"><div class="max-w-screen-xxl m-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16  undefined"><div class="grid grid-flow-row md:grid-flow-col auto-cols-auto items-center justify-between gap-4"><div class="utility-navigation__left"><ul class="flex list-none m-0 p-0 items-center gap-8 p-1 !gap-4 horizontal !p-0 !gap-8"><li class="list-none flex items-center"><button tag="button" id="location" name="Akron 44333" aria-haspopup="true" data-qa-id="RegularHeader-utilityNav-location-button" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:regular-header:utility-nav:location&quot;,&quot;type&quot;:&quot;other&quot;,&quot;componentType&quot;:&quot;header&quot;,&quot;componentName&quot;:&quot;regular-header|utility-nav&quot;,&quot;componentElement&quot;:&quot;button&quot;,&quot;productListAdds&quot;:false}" class="group inline-flex cursor-pointer py-0.5 items-center gap-1 no-underline px-[2px] custom-focus primary link-sm text-action-color-secondary-on-dark utility-nav-button utility-nav-button-Akron 44333 !gap-1 my-0.5"><span class="inline-flex group-hover:text-action-text-link-primary-on-dark"><i class="icon-pin flex justify-center items-center icon-sm  fill-current transition-colors" aria-hidden="true" style="font-size: 16px; width: 16px; height: 16px; color: currentcolor;"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span></i></span><span title="Akron 44333" class="relative text-inherit link-text after:content-[&quot;&quot;] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:origin-left after:scale-x-0 after:transition-transform after:duration-[0.3s] after:ease-out group-hover:after:scale-x-100 group-hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark inline-flex items-center gap-1">Akron 44333</span></button></li><li class="list-none flex items-center"><button tag="button" id="find-installer" name="Find an Installer" aria-haspopup="true" data-qa-id="RegularHeader-utilityNav-find-installer-button" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:regular-header:utility-nav:find-installer&quot;,&quot;type&quot;:&quot;other&quot;,&quot;componentType&quot;:&quot;header&quot;,&quot;componentName&quot;:&quot;regular-header|utility-nav&quot;,&quot;componentElement&quot;:&quot;button&quot;,&quot;productListAdds&quot;:false}" class="group inline-flex cursor-pointer py-0.5 items-center gap-1 no-underline px-[2px] custom-focus primary link-sm text-action-color-secondary-on-dark utility-nav-button utility-nav-button-Find an Installer !gap-1 my-0.5"><span class="inline-flex group-hover:text-action-text-link-primary-on-dark"><i class="icon-in-store flex justify-center items-center icon-sm  fill-current transition-colors" aria-hidden="true" style="font-size: 16px; width: 16px; height: 16px; color: currentcolor;"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span></i></span><span title="Find an Installer" class="relative text-inherit link-text after:content-[&quot;&quot;] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:origin-left after:scale-x-0 after:transition-transform after:duration-[0.3s] after:ease-out group-hover:after:scale-x-100 group-hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark inline-flex items-center gap-1">Find an Installer</span></button></li></ul></div><div class="utility-navigation__right md:block md:justify-self-end"><ul class="flex list-none m-0 p-0 items-center gap-8 p-1 !gap-4 horizontal justify-end !p-0 !gap-8"><li class="list-none flex items-center"><a href="-us/offers/index.html" id="Offers" data-qa-id="RegularHeader-utilityNav-offers-link-1" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:regular-header:utility-nav:offers&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/en-us/offers&quot;,&quot;componentType&quot;:&quot;header&quot;,&quot;componentName&quot;:&quot;regular-header|utility-nav&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus after:content-[&quot;&quot;] sm:after:block after:inline-block after:h-0.5 after:transition-transform after:duration-300 after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 link-sm text-action-color-secondary-on-dark hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark focus:text-type-standard-on-dark !normal-case !p-0 !inline-flex xdm-wrapped">Offers</a></li><li class="list-none flex items-center"><a href="-us/support/rebate-center/index.html" id="Rebate_Center" data-qa-id="RegularHeader-utilityNav-rebate-center-link-2" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:regular-header:utility-nav:rebate-center&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/en-us/support/rebate-center&quot;,&quot;componentType&quot;:&quot;header&quot;,&quot;componentName&quot;:&quot;regular-header|utility-nav&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus after:content-[&quot;&quot;] sm:after:block after:inline-block after:h-0.5 after:transition-transform after:duration-300 after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 link-sm text-action-color-secondary-on-dark hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark focus:text-type-standard-on-dark !normal-case !p-0 !inline-flex xdm-wrapped">Rebate Center</a></li><li class="list-none flex items-center"><a href="-us/support/contact-us/index.html" id="Contact_Us" data-qa-id="RegularHeader-utilityNav-contact-us-link-3" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:regular-header:utility-nav:contact-us&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/en-us/support/contact-us&quot;,&quot;componentType&quot;:&quot;header&quot;,&quot;componentName&quot;:&quot;regular-header|utility-nav&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus after:content-[&quot;&quot;] sm:after:block after:inline-block after:h-0.5 after:transition-transform after:duration-300 after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 link-sm text-action-color-secondary-on-dark hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark focus:text-type-standard-on-dark !normal-case !p-0 !inline-flex xdm-wrapped">Contact Us</a></li><li class="list-none flex items-center"><a href="-us/shops/index.html" id="Dealer_Locator" data-qa-id="RegularHeader-utilityNav-dealer-locator-link-4" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:regular-header:utility-nav:dealer-locator&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/en-us/shops&quot;,&quot;componentType&quot;:&quot;header&quot;,&quot;componentName&quot;:&quot;regular-header|utility-nav&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus after:content-[&quot;&quot;] sm:after:block after:inline-block after:h-0.5 after:transition-transform after:duration-300 after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 link-sm text-action-color-secondary-on-dark hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark focus:text-type-standard-on-dark !normal-case !p-0 !inline-flex xdm-wrapped">Dealer Locator</a></li></ul></div></div></div></nav><nav data-global-header="true" aria-label="Main Menu" class="w-full z-(--z-flyout) relative bg-layout-nav-background-dark sm:bg-transparent"><div><div class="max-w-screen-xxl m-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16  undefined"><div class="flex flex-row justify-between items-center transition-all ease-in duration-100 h-16 sm:h-24"><div class=" flex flex-row justify-baseline items-center gap-6 md:gap-12"><div class="md:hidden block"><button type="button" class="flex items-center justify-center rounded-full cursor-pointer transition-all duration-200 !leading-[0px] custom-focus focus:!rounded-full disabled:!cursor-not-allowed text-type-standard-on-dark hover:bg-background-700 disabled:text-action-disabled-disabled-on-dark relative xdm-wrapped" aria-expanded="false" aria-controls="sg-navbar-collapse" aria-label="Toggle Navigation" name="Hamburger" id="g001-hamburger-icon" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:regular-header:main-nav:hamburger-menu&quot;,&quot;type&quot;:&quot;other&quot;,&quot;componentType&quot;:&quot;header&quot;,&quot;componentName&quot;:&quot;regular-header|main-navigation&quot;,&quot;componentElement&quot;:&quot;button&quot;,&quot;productListAdds&quot;:false}"><i class="icon-hamburger flex justify-center items-center icon-xl " role="presentation" style="font-size: 48px; width: 48px; height: 48px; color: currentcolor;"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span></i></button></div><div class="flex items-center justify-center sm:w-fit sm:static
-        absolute left-1/2 -translate-x-1/2 sm:translate-0
-        text-layout-nav-logo-on-dark
-      "><a id="g001-brand-logo" title="Goodyear Home" aria-label="Goodyear Home" data-qa-id="RegularHeader-mainNavigation-global-main-nav-brand-logo" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:header:goodyear-logo&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/en-us&quot;,&quot;componentType&quot;:&quot;header&quot;,&quot;componentName&quot;:&quot;regular-header|main-navigation&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" href="index.html"><img alt="" aria-hidden="true" width="176" height="30" decoding="async" data-nimg="1" class="hidden lg:block" src="assets/www.goodyear.com/_next/static/media/primary-dark-brand-logo.0q-xah7prc61e.svg" style="color: transparent;"><img alt="" aria-hidden="true" width="55" height="48" decoding="async" data-nimg="1" class="block lg:hidden" src="assets/www.goodyear.com/_next/static/media/secondary-dark-brand-logo.08-85qa6t8k9-.svg" style="color: transparent;"></a></div><div class="hidden md:block "><ul class="list-none flex flex-row justify-center items-center gap-8"><li class="group/mega-menu offline-mega-li pt-1"><button data-toggle="dropdown" aria-haspopup="false" aria-label="Tires" aria-expanded="false" id="g001-nav-tires" data-qa-id="RegularHeader-mainNavigation-meganav-tires-link-1" aria-controls="tires-menu" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:regular-header:main-nav:mega-menu:tires&quot;,&quot;type&quot;:&quot;other&quot;,&quot;componentType&quot;:&quot;header&quot;,&quot;componentName&quot;:&quot;regular-header|main-navigation|mega-menu&quot;,&quot;componentElement&quot;:&quot;button&quot;,&quot;productListAdds&quot;:false}" type="button" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus focus:text-action-color-secondary text-action-color-secondary hover:text-action-text-link-primary sm:after:block after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 paragraph-md button-md !text-white after:bg-action-text-link-primary-on-dark hover:text-action-text-link-primary-on-dark! after:content-[''] after:block after:w-0 after:h-[3px] after:transition-[width] after:duration-300 after:border-0 after:ml-0 after:mt-0.5 hover:after:w-full group-hover/mega-menu:after:w-full !uppercase xdm-wrapped">Tires</button><div id="tires-menu" class="offline-mega-panel" role="region" aria-label="tires-menu"><ul><li><a href="-us/tires/by-brand/goodyear/eagle/index.html">Eagle Tires</a></li><li><a href="-us/tires/by-brand/goodyear/wrangler/index.html">Wrangler Tires</a></li></ul></div></li><li class="group/mega-menu offline-mega-li pt-1"><button data-toggle="dropdown" aria-haspopup="false" aria-label="Services" aria-expanded="false" id="g001-nav-services" data-qa-id="RegularHeader-mainNavigation-meganav-services-link-2" aria-controls="services-menu" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:regular-header:main-nav:mega-menu:services&quot;,&quot;type&quot;:&quot;other&quot;,&quot;componentType&quot;:&quot;header&quot;,&quot;componentName&quot;:&quot;regular-header|main-navigation|mega-menu&quot;,&quot;componentElement&quot;:&quot;button&quot;,&quot;productListAdds&quot;:false}" type="button" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus focus:text-action-color-secondary text-action-color-secondary hover:text-action-text-link-primary sm:after:block after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 paragraph-md button-md !text-white after:bg-action-text-link-primary-on-dark hover:text-action-text-link-primary-on-dark! after:content-[''] after:block after:w-0 after:h-[3px] after:transition-[width] after:duration-300 after:border-0 after:ml-0 after:mt-0.5 hover:after:w-full group-hover/mega-menu:after:w-full !uppercase xdm-wrapped">Services</button><div id="services-menu" class="offline-mega-panel" role="region" aria-label="services-menu"><ul><li><a href="-us/services/brake-service-repair_211129/index.html">Brake Service</a></li><li><a href="-us/services/oil-change_211141/index.html">Oil Change</a></li></ul></div></li><li class="group/mega-menu offline-mega-li pt-1"><button data-toggle="dropdown" aria-haspopup="false" aria-label="Signature Shop" aria-expanded="false" id="g001-nav-signature-shop" data-qa-id="RegularHeader-mainNavigation-meganav-signature-shop-link-3" aria-controls="signature-shop-menu" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:regular-header:main-nav:mega-menu:signature-shop&quot;,&quot;type&quot;:&quot;other&quot;,&quot;componentType&quot;:&quot;header&quot;,&quot;componentName&quot;:&quot;regular-header|main-navigation|mega-menu&quot;,&quot;componentElement&quot;:&quot;button&quot;,&quot;productListAdds&quot;:false}" type="button" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus focus:text-action-color-secondary text-action-color-secondary hover:text-action-text-link-primary sm:after:block after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 paragraph-md button-md !text-white after:bg-action-text-link-primary-on-dark hover:text-action-text-link-primary-on-dark! after:content-[''] after:block after:w-0 after:h-[3px] after:transition-[width] after:duration-300 after:border-0 after:ml-0 after:mt-0.5 hover:after:w-full group-hover/mega-menu:after:w-full !uppercase xdm-wrapped">Signature Shop</button><div id="signature-shop-menu" class="offline-mega-panel" role="region" aria-label="signature-shop-menu"><ul><li><a href="-us/shops/index.html">Store Finder</a></li><li><a href="-us/mobile-garage/index.html">Mobile Garage</a></li></ul></div></li><li class="group/mega-menu offline-mega-li pt-1"><button data-toggle="dropdown" aria-haspopup="false" aria-label="Resources" aria-expanded="false" id="g001-nav-resources" data-qa-id="RegularHeader-mainNavigation-meganav-resources-link-4" aria-controls="resources-menu" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:regular-header:main-nav:mega-menu:resources&quot;,&quot;type&quot;:&quot;other&quot;,&quot;componentType&quot;:&quot;header&quot;,&quot;componentName&quot;:&quot;regular-header|main-navigation|mega-menu&quot;,&quot;componentElement&quot;:&quot;button&quot;,&quot;productListAdds&quot;:false}" type="button" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus focus:text-action-color-secondary text-action-color-secondary hover:text-action-text-link-primary sm:after:block after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 paragraph-md button-md !text-white after:bg-action-text-link-primary-on-dark hover:text-action-text-link-primary-on-dark! after:content-[''] after:block after:w-0 after:h-[3px] after:transition-[width] after:duration-300 after:border-0 after:ml-0 after:mt-0.5 hover:after:w-full group-hover/mega-menu:after:w-full !uppercase xdm-wrapped">Resources</button><div id="resources-menu" class="offline-mega-panel" role="region" aria-label="resources-menu"><ul><li><a href="-us/learn/buying-tires-online-faqs/index.html">Buying Tires Online FAQs</a></li><li><a href="-us/learn/road-trip-checklist/index.html">Road Trip Checklist</a></li></ul></div></li></ul></div></div><div><div class="flex flex-row justify-end items-center gap-4 xxl:gap-8"><div class="hidden sm:block"></div><div class=" relative"></div></div></div></div></div><div class="sm:hidden block"></div></div></nav></div><div></div></header><main class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">		
+				<main class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">		
 
 
 									<div class="wd_content cmp-container--max-width">
@@ -1020,7 +1020,7 @@ margin:0in;
 					}
 				</style>
 
-<div class="wd_body wd_news_body fr-view" wd_resize="formatNews" wd_print_url="https://news.goodyear.com/2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide?printable=1">
+<div class="wd_body wd_news_body fr-view" wd_resize="formatNews" wd_print_url="2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide/index.html?printable=1">
 <p><span class="legendSpanClass"><span class="xn-location">AKRON, Ohio</span></span>, <span class="legendSpanClass"><span class="xn-chron">Sept. 30, 2025</span></span> /<a href="http://www.prnewswire.com/" target="_blank">PRNewswire</a>/ -- The Goodyear Tire &amp; Rubber Company (NASDAQ: GT) today announced the formation of its new Global Racing organization, a strategic initiative that unifies all motorsport operations under a single global structure. This milestone marks the beginning of a new chapter in Goodyear's racing legacy, reinforcing its commitment to innovation, performance and excellence on the track and beyond.</p>
 
     <div class="PRN_ImbeddedAssetReference" id="DivAssetPlaceHolder1">
@@ -1037,7 +1037,7 @@ margin:0in;
 <p>Goodyear's motorsport legacy lives on through its role as the exclusive tire supplier for some of the world's most prestigious racing series. At the heart of this legacy is the iconic Eagle tire, a benchmark of performance and reliability that continues to set the standard across diverse racing disciplines.</p>
 <p>"Motorsport is a central pillar of our brand strategy," said Roland. "It's where our technology, performance and brand identity converge. The best and fastest tires in the world have Goodyear written all over them, and racing provides the ultimate proving ground - demonstrating the speed, precision and reliability that define our products."</p>
 <p>Backed by more than a century of racing heritage, Goodyear Racing is charting a unified, future-focused motorsport strategy designed to fuel innovation, amplify brand impact and drive strategic growth across the company.</p>
-<p><b>About The Goodyear Tire &amp; Rubber Company&nbsp;<br></b>Goodyear is one of the world's largest tire companies. It employs about 68,000 people and manufactures its products in 53 facilities in 20 countries around the world. Its two Innovation Centers in <span class="xn-location">Akron, Ohio</span>, and Colmar-Berg, <span class="xn-location">Luxembourg</span>, strive to develop state-of-the-art products and services that set the technology and performance standard for the industry. For more information about Goodyear and its products, go to <a href="https://edge.prnewswire.com/c/link/?t=0&amp;l=en&amp;o=4521880-1&amp;h=698597960&amp;u=https%3A%2F%2Fwww.goodyear.com%2Fcorporate&amp;a=www.goodyear.com%2Fcorporate" target="_blank" rel="nofollow">www.goodyear.com/corporate</a>.</p>
+<p><b>About The Goodyear Tire &amp; Rubber Company&nbsp;<br></b>Goodyear is one of the world's largest tire companies. It employs about 68,000 people and manufactures its products in 53 facilities in 20 countries around the world. Its two Innovation Centers in <span class="xn-location">Akron, Ohio</span>, and Colmar-Berg, <span class="xn-location">Luxembourg</span>, strive to develop state-of-the-art products and services that set the technology and performance standard for the industry. For more information about Goodyear and its products, go to <a href="us/en.html/index.html" target="_blank" rel="nofollow">www.goodyear.com/corporate</a>.</p>
 <p><b>CONTACT:&nbsp;</b><br><span class="xn-person">Sarah Factor</span><br>216-385-3433<br><a href="mailto:Sarah_Factor@goodyear.com" target="_blank" rel="nofollow">Sarah_Factor@goodyear.com</a></p>
 <p>&nbsp;</p>
 
@@ -1059,24 +1059,24 @@ margin:0in;
 
 </div>
 </div><div class="wd_featureboxes_right_side wd_featureboxes-vertical fr-view"><div class="wd_toolbar wd_toolbar-detail"><div class="wd_featurebox_title">Share Article</div><ul class="wd_tools"><li class="wd_tool wd_tool-print"><span class="wd_tool_icon"><a onclick="view_printable(); return false;" rel="nofollow" href="#print" title="Open a printable version of this page"><span class="fa fa-print"></span><span class="wd_sr-only wd_sr-only-focusable">Open a printable version of this page</span></a></span></li><li class="wd_tool wd_tool-email"><span class="wd_tool_icon"><a onclick="window.location.href = 'mailto:?subject=Goodyear%20Launches%20Global%20Racing%20Organization%20to%20Enhance%20Motorsport%20Strategy%20Worldwide%20-%20Sep%2030%2C%202025&amp;body='+encodeURIComponent(window.location.href);return false;" href="#email" title="Email the URL of this page to a friend"><span class="fa fa-envelope"></span><span class="wd_sr-only wd_sr-only-focusable">Email the URL of this page to a friend</span></a></span></li><li class="wd_tool wd_tool-socialshare_linkedin"><span class="wd_tool_icon">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fnews.goodyear.com%2Findex.php%3Fs%3D20295%26item%3D123449" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide%2Findex.htmls%3D20295%26item%3D123449" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
                     <span class="fa fa-linkedin"></span>
 		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on LinkedIn</span>
                     </a>
                 </span></li><li class="wd_tool wd_tool-socialshare_twitter"><span class="wd_tool_icon">
-                    <a href="https://x.com/share?url=https%3A%2F%2Fnews.goodyear.com%2Findex.php%3Fs%3D20295%26item%3D123449" target="_blank" title="X Share" style="background-color:#000;">
+                    <a href="https://x.com/share?url=2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide%2Findex.htmls%3D20295%26item%3D123449" target="_blank" title="X Share" style="background-color:#000;">
                     <span class="fa fa-twitter"></span>
 		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on X</span>
                     </a>
                 </span></li><li class="wd_tool wd_tool-socialshare_facebook"><span class="wd_tool_icon">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnews.goodyear.com%2Findex.php%3Fs%3D20295%26item%3D123449" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide%2Findex.htmls%3D20295%26item%3D123449" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
                     <span class="fa fa-facebook"></span>
 		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on Facebook</span>
                     </a>
                 </span></li></ul></div>
 <div id="wd_featurebox-teaser_1379" class="wd_featurebox_container wd_featurebox-teaser"><div class="wd_featurebox_title">More Stories</div><div class="wd_featurebox">
 <div class="wd_newsfeed_releases-teaser">
-<div class="subscribe_link"><a href="news-alerts/index.html"><span class="wd_subscribe_email-icon fa fa-envelope-o"></span></a> <a href="news-alerts/index.html">News Alerts</a></div>
+<div class="subscribe_link"><a href="index.html"><span class="wd_subscribe_email-icon fa fa-envelope-o"></span></a> <a href="index.html">News Alerts</a></div>
 
 	
 		<a class="wd_link-wrap" href="2026-05-06-Goodyear-Announces-First-Quarter-2026-Results/index.html"><div class="item">
@@ -1118,24 +1118,24 @@ margin:0in;
 </div></div></div>
 						</div>
 						<div class="wd_featureboxes_right_side wd_featureboxes-vertical fr-view"><div class="wd_toolbar wd_toolbar-detail"><div class="wd_featurebox_title">Share Article</div><ul class="wd_tools"><li class="wd_tool wd_tool-print"><span class="wd_tool_icon"><a onclick="view_printable(); return false;" rel="nofollow" href="#print" title="Open a printable version of this page"><span class="fa fa-print"></span><span class="wd_sr-only wd_sr-only-focusable">Open a printable version of this page</span></a></span></li><li class="wd_tool wd_tool-email"><span class="wd_tool_icon"><a onclick="window.location.href = 'mailto:?subject=Goodyear%20Launches%20Global%20Racing%20Organization%20to%20Enhance%20Motorsport%20Strategy%20Worldwide%20-%20Sep%2030%2C%202025&amp;body='+encodeURIComponent(window.location.href);return false;" href="#email" title="Email the URL of this page to a friend"><span class="fa fa-envelope"></span><span class="wd_sr-only wd_sr-only-focusable">Email the URL of this page to a friend</span></a></span></li><li class="wd_tool wd_tool-socialshare_linkedin"><span class="wd_tool_icon">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fnews.goodyear.com%2Findex.php%3Fs%3D20295%26item%3D123449" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide%2Findex.htmls%3D20295%26item%3D123449" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
                     <span class="fa fa-linkedin"></span>
 		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on LinkedIn</span>
                     </a>
                 </span></li><li class="wd_tool wd_tool-socialshare_twitter"><span class="wd_tool_icon">
-                    <a href="https://x.com/share?url=https%3A%2F%2Fnews.goodyear.com%2Findex.php%3Fs%3D20295%26item%3D123449" target="_blank" title="X Share" style="background-color:#000;">
+                    <a href="https://x.com/share?url=2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide%2Findex.htmls%3D20295%26item%3D123449" target="_blank" title="X Share" style="background-color:#000;">
                     <span class="fa fa-twitter"></span>
 		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on X</span>
                     </a>
                 </span></li><li class="wd_tool wd_tool-socialshare_facebook"><span class="wd_tool_icon">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnews.goodyear.com%2Findex.php%3Fs%3D20295%26item%3D123449" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide%2Findex.htmls%3D20295%26item%3D123449" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
                     <span class="fa fa-facebook"></span>
 		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on Facebook</span>
                     </a>
                 </span></li></ul></div>
 <div id="wd_featurebox-teaser_1379" class="wd_featurebox_container wd_featurebox-teaser"><div class="wd_featurebox_title">More Stories</div><div class="wd_featurebox">
 <div class="wd_newsfeed_releases-teaser">
-<div class="subscribe_link"><a href="news-alerts/index.html"><span class="wd_subscribe_email-icon fa fa-envelope-o"></span></a> <a href="news-alerts/index.html">News Alerts</a></div>
+<div class="subscribe_link"><a href="index.html"><span class="wd_subscribe_email-icon fa fa-envelope-o"></span></a> <a href="index.html">News Alerts</a></div>
 
 	
 		<a class="wd_link-wrap" href="2026-05-06-Goodyear-Announces-First-Quarter-2026-Results/index.html"><div class="item">
@@ -1180,19 +1180,11 @@ margin:0in;
         <div class="wd_alert-cta">
             <h3>Get News Alerts</h3>
             <p>Sign up to receive automatic email alerts for breaking Goodyear news and updates.</p>
-            <a href="news-alerts/index.html" class="wd_anim wd_primary">sign up</a>
+            <a href="index.html" class="wd_anim wd_primary">sign up</a>
         </div>
         </div>
 				
-				</main><footer id="global-footer"><div class="relative w-full h-auto border-0" data-qa-id="footer"> <img alt="" loading="lazy" width="1600" height="400" decoding="async" data-nimg="1" src="assets/www.goodyear.com/_next/static/media/globalfooter.0nyymm95cl3nf.svg" style="color: transparent; width: 100%; height: auto;"></div><div class="bg-layout-footer-background text-type-standard-on-dark w-full mt-auto left-0"><div class="max-w-screen-xxl m-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16  undefined"><div class="grid grid-cols-1 content-between items-center pb-10 sm:py-6 md:py-8"><div class="grid grid-cols-1 md:grid-cols-12 pb-6 sm:pb-10 md:pb-8 gap-y-6 sm:gap-y-10"><div class="col-span-1 md:col-span-4 md:mr-6 sm:flex justify-center sm:justify-baseline sm:items-center sm:gap-8 sm:justify-self-center sm:w-[var(--spacing-without-column-tablet-width)] md:grid md:w-auto md:gap-4 md:justify-self-stretch md:content-baseline"><div class="relative block object-contain w-auto  h-auto" data-qa-id="footer-logo"><div class="w-full h-full max-w-[100%] block !w-[var(--spacing-with-newsletter-base-width)] !h-[var(--spacing-with-newsletter-base-height)] mb-4
-    sm:!w-[var(--spacing-with-newsletter-sm-width)] sm:!h-[var(--spacing-with-newsletter-sm-height)] sm:mb-0
-    md:!w-[var(--spacing-with-newsletter-base-width)] md:!h-[var(--spacing-with-newsletter-base-height)]"><div class="relative w-full h-full"><img alt="Goodyear" class="w-full h-full object-center object-contain transition-opacity duration-300 opacity-100  " loading="lazy" data-qa-id="" src="https://s7d1.scene7.com/is/image/GoodyearSitesProd/brand-logo?fmt=png-alpha&amp;qlt=85&amp;bfc=on" style="object-position: center center;"></div></div></div><div class=" "><div class="analytics-event-listener contents"><div data-qa-id="GlobalCheckoutFooter-contentBlock" class=""><div class="flex flex-col gap-8"><div class="flex flex-col gap-4 w-full text-left"><div class="flex flex-col w-full gap-2"><div class="overflow-hidden text-ellipsis break-all undefined" title="Sign up for offers &amp; more." style="display: -webkit-box; -webkit-box-orient: vertical; word-break: break-word;"><h2 class="heading-sm text-action-color-secondary-on-dark  justify-start flex flex-wrap w-full normal-case ">Sign up for offers &amp; more.</h2></div></div><div class="space-x-0.5"><div class="inline undefined text-action-color-secondary-on-dark last:mb-0"><p class="paragraph-md text-action-color-secondary-on-dark !normal-case">Get emails with special savings and expert tips.</p></div></div></div><div class="flex flex-wrap flex-col sm:flex-row items-center gap-6 w-full justify-start items-center"><button class="w-full inline-flex justify-center items-center rounded-[calc(var(--border-radius-btn)*1px)] py-spacing-btn-padding-y px-spacing-btn-padding-x !overflow-hidden relative group gap-2 cursor-pointer outline-none focus-visible:outline-none sm:w-fit md:m-0 text-action-text-btn-primary bg-action-color-primary border-none disabled:opacity-80 disabled:bg-action-disabled-btn disabled:text-action-color-secondary outline-none focus:ring-[3px] focus:ring-inset focus:ring-border-focus focus:shadow-[0_0_0_3px_var(--color-border-focus-effect)] flex-row button-md bg-action-color-primary-on-dark text-action-text-btn-primary-on-dark focus:ring-border-focus-on-dark focus:shadow-[var(--shadow-component-button-primary-on-dark)] disabled:!bg-action-disabled-disabled-on-dark sm:w-fit !m-0 group relative   " aria-label="Sign Up" data-qa-id="GlobalCheckoutFooter-contentBlock-sign-up-button" id="Sign_Up-button" name="Sign Up-button" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:content-block:sign-up-for-offers-more:sign-up&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/#newsletterForm&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|left-dark&quot;,&quot;componentElement&quot;:&quot;button&quot;,&quot;productListAdds&quot;:false}"><span class="button__text relative z-[1] "><div class="overflow-hidden text-ellipsis break-all undefined" title="Sign Up" style="display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; word-break: break-word;">Sign Up</div></span><img alt="" aria-hidden="true" loading="lazy" width="850" height="49" decoding="async" data-nimg="1" class="
-              left-0 !absolute top-1/2 -translate-y-1/2
-              h-[49px] w-[850px] min-w-[850px]
-              opacity-0 transform
-              group-hover:![animation:animIn_0.2s_ease-in_forwards]
-              
-            " src="assets/www.goodyear.com/_next/static/media/primary-arrow-hover-long-dark.0cr2z9uegfn08.svg" style="color: transparent;"></button></div></div></div></div></div></div><div class="col-span-1 md:col-span-8 md:ml-6"><div class="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full" data-qa-id="footer-column"><div><h3 class="eyebrow-md text-secondary-100 mb-6" data-qa-id="footer-headline">Help</h3><ul class="flex list-none m-0 p-0 flex-col gap-4 p-1 !gap-4 !p-0"><li class="list-none flex items-center"><a href="-us/shops/index.html" id="global-footer-store-finder" data-qa-id="GlobalCheckoutFooter-FooterColumn-store-finder-link" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:help:store-finder&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/en-us/shops&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-column&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="group inline-flex cursor-pointer py-0.5 items-center gap-1 no-underline px-[2px] custom-focus primary link-md text-action-color-secondary-on-dark paragraph-md text-left xdm-wrapped"><span title="Store Finder" class="relative inline-block text-inherit link-text after:content-[&quot;&quot;] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:origin-left after:scale-x-0 after:transition-transform after:duration-[0.3s] after:ease-out group-hover:after:scale-x-100 group-hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark">Store Finder</span></a></li><li class="list-none flex items-center"><a href="#accountFlyout" id="global-footer-order-tracking" data-qa-id="GlobalCheckoutFooter-FooterColumn-order-tracking-link" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:help:order-tracking&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/#accountFlyout&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-column&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="group inline-flex cursor-pointer py-0.5 items-center gap-1 no-underline px-[2px] custom-focus primary link-md text-action-color-secondary-on-dark paragraph-md text-left xdm-wrapped"><span title="Order Tracking" class="relative inline-block text-inherit link-text after:content-[&quot;&quot;] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:origin-left after:scale-x-0 after:transition-transform after:duration-[0.3s] after:ease-out group-hover:after:scale-x-100 group-hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark">Order Tracking</span></a></li></ul></div><div><h3 class="eyebrow-md text-secondary-100 mb-6" data-qa-id="footer-headline">Company</h3><ul class="flex list-none m-0 p-0 flex-col gap-4 p-1 !gap-4 !p-0"><li class="list-none flex items-center"><a href="-us/about-us/index.html" id="global-footer-about" data-qa-id="GlobalCheckoutFooter-FooterColumn-about-link" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:company:about&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/en-us/about-us&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-column&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="group inline-flex cursor-pointer py-0.5 items-center gap-1 no-underline px-[2px] custom-focus primary link-md text-action-color-secondary-on-dark paragraph-md text-left xdm-wrapped"><span title="About" class="relative inline-block text-inherit link-text after:content-[&quot;&quot;] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:origin-left after:scale-x-0 after:transition-transform after:duration-[0.3s] after:ease-out group-hover:after:scale-x-100 group-hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark">About</span></a></li><li class="list-none flex items-center"><a href="index.html" id="global-footer-careers" data-qa-id="GlobalCheckoutFooter-FooterColumn-careers-link" target="_blank" rel="noopener noreferrer" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:company:careers&quot;,&quot;type&quot;:&quot;exit&quot;,&quot;URL&quot;:&quot;https://jobs.goodyear.com/&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-column&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="group inline-flex cursor-pointer py-0.5 items-center gap-1 no-underline px-[2px] custom-focus primary link-md text-action-color-secondary-on-dark paragraph-md text-left xdm-wrapped"><span title="Careers" class="relative inline-block text-inherit link-text after:content-[&quot;&quot;] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:origin-left after:scale-x-0 after:transition-transform after:duration-[0.3s] after:ease-out group-hover:after:scale-x-100 group-hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark">Careers</span></a></li></ul></div><div><h3 class="eyebrow-md text-secondary-100 mb-6" data-qa-id="footer-headline">Contact</h3><ul class="flex list-none m-0 p-0 flex-col gap-4 p-1 !gap-4 !p-0"><li class="list-none flex items-center"><a href="-us/support/contact-us/index.html" id="global-footer-contact-us" data-qa-id="GlobalCheckoutFooter-FooterColumn-contact-us-link" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:contact:contact-us&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/en-us/support/contact-us&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-column&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="group inline-flex cursor-pointer py-0.5 items-center gap-1 no-underline px-[2px] custom-focus primary link-md text-action-color-secondary-on-dark paragraph-md text-left xdm-wrapped"><span class="inline-flex group-hover:text-action-text-link-primary-on-dark"><i class="icon-e-mail flex justify-center items-center icon-sm  fill-current transition-colors" aria-hidden="true" style="font-size: 16px; width: 16px; height: 16px; color: currentcolor;"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span></i></span><span title="Contact Us" class="relative inline-block text-inherit link-text after:content-[&quot;&quot;] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:origin-left after:scale-x-0 after:transition-transform after:duration-[0.3s] after:ease-out group-hover:after:scale-x-100 group-hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark">Contact Us</span></a></li></ul></div></div></div></div><ul class="flex list-none m-0 p-0 items-center gap-8 p-1 !gap-4 horizontal !p-0 !gap-9 justify-center" data-qa-id="footer-social-links"><li class="list-none flex items-center"><a href="https://www.linkedin.com/company/goodyear/jobs/" id="global-footer-linked-in" data-qa-id="GlobalCheckoutFooter-FooterSocialLinks-linked-in-link" target="_blank" rel="noopener noreferrer" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:social:linked-in&quot;,&quot;type&quot;:&quot;exit&quot;,&quot;URL&quot;:&quot;https://www.linkedin.com/company/goodyear/jobs/&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-social-links&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="group inline-flex items-center no-underline custom-focus primary link-md cursor-pointer text-action-color-secondary-on-dark gap-0 p-0 xdm-wrapped"><span class="inline-flex group-hover:text-action-text-link-primary"><i class="icon-linked-in flex justify-center items-center icon-lg  fill-current transition-colors" aria-hidden="true" style="font-size: 32px; width: 32px; height: 32px; color: currentcolor;"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span></i></span><span title="" class="relative inline-block text-inherit link-text after:content-[&quot;&quot;] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-current after:origin-left after:scale-x-0 after:transition-transform after:duration-[0.3s] after:ease-out group-hover:after:scale-x-100 group-hover:text-action-text-link-primary"><span class="sr-only">LinkedIn</span></span></a></li><li class="list-none flex items-center"><a href="https://www.instagram.com/goodyear/?hl=en" id="global-footer-instagram" data-qa-id="GlobalCheckoutFooter-FooterSocialLinks-instagram-link" target="_blank" rel="noopener noreferrer" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:social:instagram&quot;,&quot;type&quot;:&quot;exit&quot;,&quot;URL&quot;:&quot;https://www.instagram.com/goodyear/?hl=en&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-social-links&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="group inline-flex items-center no-underline custom-focus primary link-md cursor-pointer text-action-color-secondary-on-dark gap-0 p-0 xdm-wrapped"><span class="inline-flex group-hover:text-action-text-link-primary"><i class="icon-instagram flex justify-center items-center icon-lg  fill-current transition-colors" aria-hidden="true" style="font-size: 32px; width: 32px; height: 32px; color: currentcolor;"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span></i></span><span title="" class="relative inline-block text-inherit link-text after:content-[&quot;&quot;] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-current after:origin-left after:scale-x-0 after:transition-transform after:duration-[0.3s] after:ease-out group-hover:after:scale-x-100 group-hover:text-action-text-link-primary"><span class="sr-only">Instagram</span></span></a></li><li class="list-none flex items-center"><a href="https://www.youtube.com/user/Goodyear" id="global-footer-youtube" data-qa-id="GlobalCheckoutFooter-FooterSocialLinks-youtube-link" target="_blank" rel="noopener noreferrer" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:social:youtube&quot;,&quot;type&quot;:&quot;exit&quot;,&quot;URL&quot;:&quot;https://www.youtube.com/user/Goodyear&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-social-links&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="group inline-flex items-center no-underline custom-focus primary link-md cursor-pointer text-action-color-secondary-on-dark gap-0 p-0 xdm-wrapped"><span class="inline-flex group-hover:text-action-text-link-primary"><i class="icon-youtube flex justify-center items-center icon-lg  fill-current transition-colors" aria-hidden="true" style="font-size: 32px; width: 32px; height: 32px; color: currentcolor;"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span></i></span><span title="" class="relative inline-block text-inherit link-text after:content-[&quot;&quot;] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-current after:origin-left after:scale-x-0 after:transition-transform after:duration-[0.3s] after:ease-out group-hover:after:scale-x-100 group-hover:text-action-text-link-primary"><span class="sr-only">Youtube</span></span></a></li><li class="list-none flex items-center"><a href="https://twitter.com/goodyear" id="global-footer-x-formally-twitter" data-qa-id="GlobalCheckoutFooter-FooterSocialLinks-x-formally-twitter-link" target="_blank" rel="noopener noreferrer" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:social:x-formally-twitter&quot;,&quot;type&quot;:&quot;exit&quot;,&quot;URL&quot;:&quot;https://twitter.com/goodyear&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-social-links&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="group inline-flex items-center no-underline custom-focus primary link-md cursor-pointer text-action-color-secondary-on-dark gap-0 p-0 xdm-wrapped"><span class="inline-flex group-hover:text-action-text-link-primary"><i class="icon-twitter flex justify-center items-center icon-lg  fill-current transition-colors" aria-hidden="true" style="font-size: 32px; width: 32px; height: 32px; color: currentcolor;"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span></i></span><span title="" class="relative inline-block text-inherit link-text after:content-[&quot;&quot;] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-current after:origin-left after:scale-x-0 after:transition-transform after:duration-[0.3s] after:ease-out group-hover:after:scale-x-100 group-hover:text-action-text-link-primary"><span class="sr-only">X (formally Twitter)</span></span></a></li><li class="list-none flex items-center"><a href="https://www.facebook.com/Goodyear" id="global-footer-facebook" data-qa-id="GlobalCheckoutFooter-FooterSocialLinks-facebook-link" target="_blank" rel="noopener noreferrer" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:social:facebook&quot;,&quot;type&quot;:&quot;exit&quot;,&quot;URL&quot;:&quot;https://www.facebook.com/Goodyear&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-social-links&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="group inline-flex items-center no-underline custom-focus primary link-md cursor-pointer text-action-color-secondary-on-dark gap-0 p-0 xdm-wrapped"><span class="inline-flex group-hover:text-action-text-link-primary"><i class="icon-facebook flex justify-center items-center icon-lg  fill-current transition-colors" aria-hidden="true" style="font-size: 32px; width: 32px; height: 32px; color: currentcolor;"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span></i></span><span title="" class="relative inline-block text-inherit link-text after:content-[&quot;&quot;] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-current after:origin-left after:scale-x-0 after:transition-transform after:duration-[0.3s] after:ease-out group-hover:after:scale-x-100 group-hover:text-action-text-link-primary"><span class="sr-only">Facebook</span></span></a></li></ul><div class="grid gap-4 pt-4 text-center text-ui-25"><ul class="flex list-none m-0 p-0 items-center gap-8 p-1 !gap-4 horizontal !p-0 !gap-4 justify-center flex flex-wrap lg:gap-8!" data-qa-id="footer-legal-links"><li class="list-none flex items-center"><div class="flex justify-center items-center gap-4 md:gap-6 lg:gap-8"><a id="global-footer-accessibility" href="-us/terms/accessibility/index.html" data-qa-id="GlobalCheckoutFooter-FooterBottom-accessibility-link-1" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:bottom:accessibility&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/en-us/terms/accessibility&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-bottom&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus !normal-case after:content-[&quot;&quot;] sm:after:block after:inline-block after:h-0.5 after:transition-transform after:duration-300 after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 paragraph-md text-action-color-secondary-on-dark hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark focus:text-type-standard-on-dark py-[1px] xdm-wrapped">Accessibility</a></div></li><li class="list-none flex items-center"><div class="flex justify-center items-center gap-4 md:gap-6 lg:gap-8"><span class="text-neutral-400" aria-hidden="true">|</span><a id="global-footer-terms-and-conditions" href="-us/terms/terms-and-conditions/index.html" data-qa-id="GlobalCheckoutFooter-FooterBottom-terms-and-conditions-link-2" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:bottom:terms-and-conditions&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/en-us/terms/terms-and-conditions&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-bottom&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus !normal-case after:content-[&quot;&quot;] sm:after:block after:inline-block after:h-0.5 after:transition-transform after:duration-300 after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 paragraph-md text-action-color-secondary-on-dark hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark focus:text-type-standard-on-dark py-[1px] xdm-wrapped">Terms and Conditions</a></div></li><li class="list-none flex items-center"><div class="flex justify-center items-center gap-4 md:gap-6 lg:gap-8"><span class="text-neutral-400" aria-hidden="true">|</span><a id="global-footer-privacy-policy" href="-us/terms/global-privacy-policy/index.html" data-qa-id="GlobalCheckoutFooter-FooterBottom-privacy-policy-link-3" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:bottom:privacy-policy&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/en-us/terms/global-privacy-policy&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-bottom&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus !normal-case after:content-[&quot;&quot;] sm:after:block after:inline-block after:h-0.5 after:transition-transform after:duration-300 after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 paragraph-md text-action-color-secondary-on-dark hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark focus:text-type-standard-on-dark py-[1px] xdm-wrapped">Privacy Policy</a></div></li><li class="list-none flex items-center"><div class="flex justify-center items-center gap-4 md:gap-6 lg:gap-8"><span class="text-neutral-400" aria-hidden="true">|</span><a id="global-footer-site-map" href="-us/sitemap/index.html" data-qa-id="GlobalCheckoutFooter-FooterBottom-site-map-link-4" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:bottom:site-map&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/en-us/sitemap&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-bottom&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus !normal-case after:content-[&quot;&quot;] sm:after:block after:inline-block after:h-0.5 after:transition-transform after:duration-300 after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 paragraph-md text-action-color-secondary-on-dark hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark focus:text-type-standard-on-dark py-[1px] xdm-wrapped">Site Map</a></div></li><li class="list-none flex items-center"><div class="flex justify-center items-center gap-4 md:gap-6 lg:gap-8"><span class="text-neutral-400" aria-hidden="true">|</span><button id="ot-sdk-btn" type="button" aria-haspopup="dialog" data-qa-id="GlobalCheckoutFooter-FooterBottom-do-not-sell-or-share-my-personal-information" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:bottom:do-not-sell-or-share-my-personal-information&quot;,&quot;type&quot;:&quot;other&quot;,&quot;URL&quot;:&quot;https://www.goodyear.com/#&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-bottom&quot;,&quot;componentElement&quot;:&quot;button&quot;,&quot;productListAdds&quot;:false}" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus !normal-case after:content-[&quot;&quot;] sm:after:block after:inline-block after:h-0.5 after:transition-transform after:duration-300 after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 paragraph-md text-action-color-secondary-on-dark hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark focus:text-type-standard-on-dark py-[1px] xdm-wrapped ot-sdk-show-settings" data-ot-adapter="">Do Not Sell or Share My Personal Information</button></div></li><li class="list-none flex items-center"><div class="flex justify-center items-center gap-4 md:gap-6 lg:gap-8"><span class="text-neutral-400" aria-hidden="true">|</span><a id="global-footer-your-privacy-choices" href="https://privacyportal.onetrust.com/webform/e1e5b05f-ca43-4130-af11-3432465e6657/draft/ca1f5b49-2fee-456b-ae1c-60fc815257ec" data-qa-id="GlobalCheckoutFooter-FooterBottom-your-privacy-choices-link-6" target="_blank" rel="noopener noreferrer" data-tracking="{&quot;eventType&quot;:&quot;web.webinteraction.linkClicks&quot;,&quot;name&quot;:&quot;cta:global-footer:bottom:your-privacy-choices&quot;,&quot;type&quot;:&quot;exit&quot;,&quot;URL&quot;:&quot;https://privacyportal.onetrust.com/webform/e1e5b05f-ca43-4130-af11-3432465e6657/draft/ca1f5b49-2fee-456b-ae1c-60fc815257ec&quot;,&quot;componentType&quot;:&quot;global-checkout-footer&quot;,&quot;componentName&quot;:&quot;global-checkout-footer|footer-bottom&quot;,&quot;componentElement&quot;:&quot;link&quot;,&quot;productListAdds&quot;:false}" class="relative cursor-pointer inline sm:inline-block font-type-cta custom-focus !normal-case after:content-[&quot;&quot;] sm:after:block after:inline-block after:h-0.5 after:transition-transform after:duration-300 after:ease-out after:origin-left after:scale-x-0 hover:after:scale-x-100 paragraph-md text-action-color-secondary-on-dark hover:text-action-text-link-primary-on-dark after:bg-action-text-link-primary-on-dark focus:text-type-standard-on-dark py-[1px] xdm-wrapped">Your Privacy Choices</a></div></li></ul><div class="text-type-lighter-on-dark paragraph-sm sm:paragraph-md" data-qa-id="footer-copyright-text">© 2026 The Goodyear Tire &amp; Rubber Company</div></div></div></div></div></footer>
+				</main>
 				<!-- MAIN CONTENT END -->
 
 				<!-- FOOTER -->
@@ -1250,7 +1242,7 @@ margin:0in;
 
 																<div class="brandlogo aem-GridColumn aem-GridColumn--default--12">
 
-																	<a class="cmp-brandlogo-footer" href="us/en.html.html/index.html" aria-label="Goodyear Corporate Logo">
+																	<a class="cmp-brandlogo-footer" href="index.html" aria-label="Goodyear Corporate Logo">
 
 																		<span class="icon-goodyear-logo"><img src="assets/news.goodyear.com/images/logo.svg" alt=""></span>
 
@@ -1644,9 +1636,33 @@ margin:0in;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script id="offline-nav-script">
 (function () {
   var BTN = 'button[data-qa-id^="RegularHeader-mainNavigation-meganav-"]';
+  var CAROUSEL_QA = 'CardCarouselContainer-CardCarouselContainer';
+  var PREV_QA = 'CardCarouselContainer-CardCarouselContainer-prev-button';
+  var NEXT_QA = 'CardCarouselContainer-CardCarouselContainer-next-button';
+  var RACING_READ_MORE_QA = 'TwoColumnContainer-ContentCard-ContentBlock-read-more-button';
+  var RACING_NEWS_HREF = '2025-09-30-Goodyear-Launches-Global-Racing-Organization-to-Enhance-Motorsport-Strategy-Worldwide/index.html';
+  var ENABLED_BTN = 'bg-action-color-primary text-action-text-btn-primary cursor-pointer hover:opacity-100';
+  var DISABLED_BTN = 'bg-action-disabled-btn !bg-action-disabled-btn pointer-events-none text-action-disabled-disabled hover:opacity-100';
 
   function closeAll() {
     document.querySelectorAll('.offline-mega-open').forEach(function (el) {
@@ -1668,7 +1684,150 @@ margin:0in;
     }
   }
 
+  function setNavButtonState(btn, enabled) {
+    if (!btn) return;
+    btn.setAttribute('aria-disabled', enabled ? 'false' : 'true');
+    btn.tabIndex = enabled ? 0 : -1;
+    if (enabled) btn.removeAttribute('disabled');
+    else btn.setAttribute('disabled', 'disabled');
+    btn.classList.remove('bg-action-color-primary', 'text-action-text-btn-primary', 'cursor-pointer',
+      'bg-action-disabled-btn', '!bg-action-disabled-btn', 'pointer-events-none', 'text-action-disabled-disabled');
+    (enabled ? ENABLED_BTN : DISABLED_BTN).split(' ').forEach(function (cls) {
+      if (cls) btn.classList.add(cls);
+    });
+  }
+
+  function getMaxIndex(slides, swiper) {
+    if (!slides.length) return 0;
+    var maxOffset = 0;
+    for (var i = slides.length - 1; i >= 0; i--) {
+      var offset = slides[i].offsetLeft;
+      if (offset <= slides[slides.length - 1].offsetLeft) {
+        maxOffset = offset;
+      }
+    }
+    var viewport = swiper.clientWidth;
+    var total = slides[slides.length - 1].offsetLeft + slides[slides.length - 1].offsetWidth;
+    if (total <= viewport) return 0;
+    for (var j = slides.length - 1; j >= 0; j--) {
+      var left = slides[j].offsetLeft;
+      if (left + slides[j].offsetWidth > viewport - 1) {
+        return j;
+      }
+    }
+    return slides.length - 1;
+  }
+
+  function updateScrollbar(section, swiper, wrapper, offset) {
+    var drag = section.querySelector('.swiper-scrollbar-drag');
+    var track = section.querySelector('.swiper-scrollbar');
+    if (!drag || !track) return;
+    var maxScroll = Math.max(wrapper.scrollWidth - swiper.clientWidth, 0);
+    var trackWidth = track.clientWidth;
+    var dragWidth = maxScroll > 0 ? Math.max((swiper.clientWidth / wrapper.scrollWidth) * trackWidth, 24) : trackWidth;
+    drag.style.width = dragWidth + 'px';
+    var travel = Math.max(trackWidth - dragWidth, 0);
+    drag.style.transform = maxScroll > 0
+      ? 'translate3d(' + ((offset / maxScroll) * travel) + 'px, 0px, 0px)'
+      : 'translate3d(0px, 0px, 0px)';
+  }
+
+  function markSlideStates(slides, activeIndex) {
+    slides.forEach(function (slide, index) {
+      slide.classList.remove('swiper-slide-active', 'swiper-slide-prev', 'swiper-slide-next');
+      if (index === activeIndex) slide.classList.add('swiper-slide-active');
+      else if (index === activeIndex - 1) slide.classList.add('swiper-slide-prev');
+      else if (index === activeIndex + 1) slide.classList.add('swiper-slide-next');
+      slide.setAttribute('aria-label', (index + 1) + ' / ' + slides.length);
+    });
+  }
+
+  function initCarousel(section) {
+    if (section.getAttribute('data-offline-carousel-init') === 'true') return;
+    var swiper = section.querySelector('.swiper');
+    var wrapper = section.querySelector('.swiper-wrapper');
+    var slides = Array.prototype.slice.call(section.querySelectorAll('.swiper-slide'));
+    var prevBtn = section.querySelector('[data-qa-id="' + PREV_QA + '"]');
+    var nextBtn = section.querySelector('[data-qa-id="' + NEXT_QA + '"]');
+    if (!swiper || !wrapper || slides.length < 2 || !prevBtn || !nextBtn) return;
+
+    section.setAttribute('data-offline-carousel-init', 'true');
+    swiper.classList.add('offline-carousel-ready');
+
+    var state = {
+      activeIndex: slides.findIndex(function (slide) {
+        return slide.classList.contains('swiper-slide-active');
+      }),
+      slides: slides,
+      wrapper: wrapper,
+      swiper: swiper,
+      prevBtn: prevBtn,
+      nextBtn: nextBtn,
+    };
+    if (state.activeIndex < 0) state.activeIndex = 0;
+
+    function goTo(index, animate) {
+      var maxIndex = getMaxIndex(state.slides, state.swiper);
+      state.activeIndex = Math.max(0, Math.min(index, maxIndex));
+      var offset = state.slides[state.activeIndex].offsetLeft;
+      state.wrapper.style.transition = animate === false ? 'none' : '';
+      state.wrapper.style.transform = 'translate3d(' + (-offset) + 'px, 0px, 0px)';
+      markSlideStates(state.slides, state.activeIndex);
+      setNavButtonState(state.prevBtn, state.activeIndex > 0);
+      setNavButtonState(state.nextBtn, state.activeIndex < maxIndex);
+      updateScrollbar(section, state.swiper, state.wrapper, offset);
+    }
+
+    state.goTo = goTo;
+    section.__offlineCarousel = state;
+
+    window.addEventListener('resize', function () {
+      goTo(state.activeIndex, false);
+    });
+
+    goTo(state.activeIndex, false);
+  }
+
+  function initCarousels() {
+    document.querySelectorAll('[data-qa-id="' + CAROUSEL_QA + '"]').forEach(initCarousel);
+  }
+
+  function fixRemainingGoodyearAnchors() {
+    document.querySelectorAll('a[href*="goodyear.com"]').forEach(function (anchor) {
+      var href = anchor.getAttribute('href') || '';
+      if (!href || href.indexOf('mailto:') === 0 || href.indexOf('localhost') !== -1) return;
+      if (/news\.goodyear\.com\/news-alerts/i.test(href)) {
+        anchor.setAttribute('href', 'index.html');
+      }
+    });
+  }
+
+  function fixGlobalRacingReadMore() {
+    var btn = document.querySelector('[data-qa-id="' + RACING_READ_MORE_QA + '"]');
+    if (!btn) return;
+    var card = btn.closest('[data-qa-id="TwoColumnContainer-ContentCard"]');
+    if (!card || card.textContent.indexOf('Global Racing Organization') === -1) return;
+    var href = btn.getAttribute('href') || '';
+    if (href.indexOf('road-trip-checklist') !== -1 || href.indexOf('2025-09-30-Goodyear-Launches-Global-Racing-Organization') === -1) {
+      btn.setAttribute('href', RACING_NEWS_HREF);
+    }
+  }
+
   document.addEventListener('click', function (e) {
+    var prev = e.target.closest('[data-qa-id="' + PREV_QA + '"]');
+    var next = e.target.closest('[data-qa-id="' + NEXT_QA + '"]');
+    if (prev || next) {
+      var section = (prev || next).closest('[data-qa-id="' + CAROUSEL_QA + '"]');
+      var state = section && section.__offlineCarousel;
+      if (state) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        if (prev) state.goTo(state.activeIndex - 1, true);
+        else state.goTo(state.activeIndex + 1, true);
+      }
+      return;
+    }
+
     var btn = e.target.closest(BTN);
     if (btn) {
       e.preventDefault();
@@ -1680,5 +1839,27 @@ margin:0in;
       closeAll();
     }
   }, true);
+
+  function boot() {
+    fixGlobalRacingReadMore();
+    fixRemainingGoodyearAnchors();
+    initCarousels();
+    window.setTimeout(function () {
+      fixGlobalRacingReadMore();
+      fixRemainingGoodyearAnchors();
+      initCarousels();
+    }, 300);
+    window.setTimeout(function () {
+      fixGlobalRacingReadMore();
+      fixRemainingGoodyearAnchors();
+      initCarousels();
+    }, 1200);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
 })();
 </script></body></html>
