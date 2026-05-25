@@ -12,6 +12,7 @@ Thumbs.db
 
 # Contact form secrets and submissions
 /includes/contact-mail.local.php
+/includes/gy-config.local.php
 /storage/contact-messages/*
 !/storage/contact-messages/
 !/storage/contact-messages/.gitkeep

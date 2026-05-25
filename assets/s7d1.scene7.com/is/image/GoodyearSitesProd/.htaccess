@@ -1,0 +1,4 @@
+# Scene7 mirror files have no extension; serve as PNG for <img> on Apache/cPanel.
+<IfModule mod_mime.c>
+  ForceType image/png
+</IfModule>
