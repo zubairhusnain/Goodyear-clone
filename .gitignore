@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+.history/
+
+# Composer (run: composer install --no-dev)
+/vendor/
+
+# Contact form secrets and submissions
+/includes/contact-mail.local.php
+/storage/contact-messages/*
+!/storage/contact-messages/
+!/storage/contact-messages/.gitkeep
+
+# Local env overrides (optional)
+.env
+.env.local
