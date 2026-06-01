@@ -29,7 +29,7 @@ If you already uploaded the `goodyear_offline` folder, either move everything up
 1. Upload the **entire** site including **`assets/`** (~195MB). Most photos are in:
    `assets/s7d1.scene7.com/is/image/GoodyearSitesProd/`
 2. Upload `includes/gy-config.local.php` with `define('GY_BASE_PATH', '');` for root installs.
-3. Run `composer install --no-dev` on the server (or upload `vendor/`).
+3. No Composer required for the contact form (uses PHP `mail()`).
 
 ## Document root (pick one)
 
@@ -67,3 +67,11 @@ SetEnv GY_BASE_PATH /your-subfolder
 ## Permissions
 
 Folders `755`, files `644`. Ensure `assets/` uploaded completely (FTP/cPanel sometimes skip large folders).
+
+## Contact form email (simple — no Composer)
+
+1. cPanel → **Email Accounts** → create `noreply@goodyear.com.pk`.
+2. Copy `includes/contact-mail.local.php.example` → `includes/contact-mail.local.php`.
+3. Set `recipient` (your inbox) and `from_email` (the mailbox above).
+4. Open `https://your-domain/check-contact-mail.php` — `form_enabled` should be `true`.
+5. Submit a test on the contact page, then delete `check-contact-mail.php`.
