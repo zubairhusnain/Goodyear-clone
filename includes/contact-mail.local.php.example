@@ -2,18 +2,15 @@
 declare(strict_types=1);
 
 /**
- * Copy to contact-mail.local.php and fill in your SMTP credentials.
+ * Copy to contact-mail.local.php on cPanel (not committed).
+ *
+ * 1. cPanel → Email Accounts → create noreply@goodyear.com.pk
+ * 2. Set recipient + from_email below
+ * 3. Upload — no Composer needed
  */
 return [
-    'recipient' => 'you@example.com',
-    'from_email' => 'your.email@gmail.com',
+    'recipient' => 'you@gmail.com',
+    'from_email' => 'noreply@goodyear.com.pk',
     'from_name' => 'Goodyear Contact Form',
-    'smtp' => [
-        'enabled' => true,
-        'host' => 'smtp.gmail.com',
-        'port' => 587,
-        'encryption' => 'tls',
-        'username' => 'your.email@gmail.com',
-        'password' => 'your-app-password',
-    ],
+    'save_to_storage' => true,
 ];
