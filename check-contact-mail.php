@@ -5,16 +5,20 @@ require_once __DIR__ . '/includes/gy-contact-mail.php';
 
 header('Content-Type: application/json; charset=utf-8');
 
-$config = gy_contact_mail_config();
+$runTest = isset($_GET['send_test']) && $_GET['send_test'] === '1';
+$out = gy_contact_mail_diagnostics();
+$out['mail_method'] = 'php mail()';
 
-echo json_encode([
-    'form_enabled' => gy_contact_form_enabled(),
-    'mail_method' => 'php mail()',
-    'recipient' => $config['recipient'] ?? null,
-    'from_email' => $config['from_email'] ?? null,
-    'local_config_exists' => is_file(__DIR__ . '/includes/contact-mail.local.php'),
-    'save_to_storage' => !empty($config['save_to_storage']),
-    'hint' => !gy_contact_form_enabled()
-        ? 'Set recipient and from_email in includes/contact-mail.local.php. from_email must be a real cPanel mailbox on your domain.'
-        : 'Submit a test on the contact page, then delete this file.',
-], JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+if ($runTest) {
+    $test = gy_contact_send_test_mail();
+    $out['test_send'] = $test;
+    $out['interpretation'] = $test['mailed']
+        ? 'Email was accepted by the server mail() function. Check the recipient inbox and spam folder.'
+        : ($test['saved']
+            ? 'mail() failed but the message was saved under storage/contact-messages/. Fix cPanel email (from_email mailbox).'
+            : 'mail() failed and nothing was saved. Configure from_email as a real cPanel mailbox.');
+} else {
+    $out['hint'] = 'Add ?send_test=1 to this URL to send a test email. Delete this file when done.';
+}
+
+echo json_encode($out, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);

@@ -3,6 +3,159 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/gy-contact-mail.php';
 
+function gy_contact_form_inline_css(): string
+{
+    return <<<'CSS'
+<style id="gy-contact-form-styles">
+#gy-contact-root,
+#gy-contact-root * { box-sizing: border-box; }
+#gy-contact-root {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 2.5rem 1rem 3rem !important;
+  background: #f5f5f5 !important;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  color: #1a1a1a !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+#gy-contact-root .gy-contact-card {
+  display: block !important;
+  width: 100% !important;
+  max-width: 420px !important;
+  margin: 0 auto !important;
+  padding: 1.75rem 1.5rem 2rem !important;
+  background: #fff !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08) !important;
+}
+#gy-contact-root .gy-contact-card__header {
+  display: block !important;
+  text-align: center !important;
+  margin: 0 0 1.25rem !important;
+}
+#gy-contact-root .gy-contact-card__title {
+  display: block !important;
+  margin: 0 0 0.5rem !important;
+  padding: 0 !important;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  color: #1a1a1a !important;
+  text-transform: none !important;
+}
+#gy-contact-root .gy-contact-card__lead {
+  display: block !important;
+  margin: 0 !important;
+  font-size: 0.9375rem !important;
+  color: #555 !important;
+}
+#gy-contact-root .gy-contact-alert {
+  display: block !important;
+  padding: 0.75rem 1rem !important;
+  margin: 0 0 1rem !important;
+  border-radius: 8px !important;
+  font-size: 0.875rem !important;
+}
+#gy-contact-root .gy-contact-alert--success { background: #e8f5e9 !important; color: #1b5e20 !important; border: 1px solid #a5d6a7 !important; }
+#gy-contact-root .gy-contact-alert--error { background: #ffebee !important; color: #b71c1c !important; border: 1px solid #ef9a9a !important; }
+#gy-contact-root .gy-contact-alert--info { background: #e3f2fd !important; color: #0d47a1 !important; border: 1px solid #90caf9 !important; }
+#gy-contact-root form.gy-contact-form {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#gy-contact-root .gy-contact-field {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 0 1rem !important;
+  padding: 0 !important;
+  flex: none !important;
+}
+#gy-contact-root .gy-contact-field label {
+  display: block !important;
+  width: auto !important;
+  margin: 0 0 0.35rem !important;
+  padding: 0 !important;
+  font-size: 0.8125rem !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+  text-transform: none !important;
+}
+#gy-contact-root .gy-contact-field input,
+#gy-contact-root .gy-contact-field textarea {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 2.75rem !important;
+  margin: 0 !important;
+  padding: 0.625rem 0.75rem !important;
+  font-size: 1rem !important;
+  font-family: inherit !important;
+  font-weight: 400 !important;
+  line-height: 1.4 !important;
+  color: #1a1a1a !important;
+  background: #fff !important;
+  border: 1px solid #ccc !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+  appearance: auto !important;
+  -webkit-appearance: auto !important;
+  flex: none !important;
+  text-transform: none !important;
+}
+#gy-contact-root .gy-contact-field textarea {
+  min-height: 120px !important;
+  resize: vertical !important;
+}
+#gy-contact-root .gy-contact-count {
+  display: block !important;
+  text-align: right !important;
+  font-size: 0.75rem !important;
+  color: #777 !important;
+  margin-top: 0.25rem !important;
+}
+#gy-contact-root .gy-contact-hp {
+  position: absolute !important;
+  left: -9999px !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+}
+#gy-contact-root button.gy-contact-submit {
+  display: block !important;
+  width: 100% !important;
+  margin: 0.5rem 0 0 !important;
+  padding: 0.75rem 1rem !important;
+  font-size: 0.9375rem !important;
+  font-weight: 600 !important;
+  font-family: inherit !important;
+  color: #fff !important;
+  background: #1a1a1a !important;
+  border: none !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  text-align: center !important;
+  text-transform: none !important;
+  box-shadow: none !important;
+  appearance: none !important;
+}
+#gy-contact-root button.gy-contact-submit:disabled {
+  background: #9e9e9e !important;
+  cursor: not-allowed !important;
+}
+</style>
+CSS;
+}
+
 function gy_contact_form_handle(array $post): array
 {
     if (!gy_contact_form_enabled()) {
@@ -67,7 +220,11 @@ function gy_contact_form_render(array $state): string
     $msg = gy_contact_h((string)($state['message'] ?? ''));
     $enabled = gy_contact_form_enabled();
     $disabled = !$enabled;
-    $disabledAttr = $disabled ? ' disabled' : '';
+    $dis = $disabled ? ' disabled' : '';
+
+    $inputStyle = 'display:block;width:100%;box-sizing:border-box;padding:10px 12px;font-size:16px;line-height:1.4;color:#1a1a1a;background:#fff;border:1px solid #ccc;border-radius:6px;margin:0;min-height:44px;';
+    $textareaStyle = $inputStyle . 'min-height:120px;resize:vertical;';
+    $btnStyle = 'display:block;width:100%;box-sizing:border-box;margin:8px 0 0;padding:12px 16px;font-size:15px;font-weight:600;color:#fff;background:#1a1a1a;border:none;border-radius:8px;cursor:pointer;';
 
     $disabledNotice = $enabled
         ? ''
@@ -86,42 +243,41 @@ function gy_contact_form_render(array $state): string
     $sub = gy_contact_h((string)($v['subject'] ?? ''));
     $mes = gy_contact_h((string)($v['message'] ?? ''));
 
-    $ariaDisabled = $disabled ? 'true' : 'false';
+    $css = gy_contact_form_inline_css();
 
     return <<<HTML
-<div class="gy-contact-page">
+{$css}
+<div id="gy-contact-root">
   <div class="gy-contact-card">
-    <header class="gy-contact-card__header">
-      <h1 class="gy-contact-card__title">Contact Us</h1>
+    <div class="gy-contact-card__header">
+      <h2 class="gy-contact-card__title">Contact Us</h2>
       <p class="gy-contact-card__lead">Send us a message and we will respond as soon as we can.</p>
-    </header>
+    </div>
     {$disabledNotice}
     {$alert}
     <form id="contact-us-email" name="contact-us-email" class="gy-contact-form" method="post" action="" novalidate>
-      <fieldset class="gy-contact-fieldset"{$disabledAttr}>
-        <div class="gy-contact-field">
-          <label for="gy-username">Name</label>
-          <input id="gy-username" name="username" type="text" required maxlength="120" autocomplete="name" value="{$u}" placeholder="Your name"{$disabledAttr}>
-        </div>
-        <div class="gy-contact-field">
-          <label for="gy-email">Email</label>
-          <input id="gy-email" name="email" type="email" required maxlength="254" autocomplete="email" value="{$em}" placeholder="you@example.com"{$disabledAttr}>
-        </div>
-        <div class="gy-contact-field">
-          <label for="gy-subject">Subject</label>
-          <input id="gy-subject" name="subject" type="text" required maxlength="200" value="{$sub}" placeholder="Subject"{$disabledAttr}>
-        </div>
-        <div class="gy-contact-field">
-          <label for="gy-message">Message</label>
-          <textarea id="gy-message" name="message" rows="5" maxlength="3000" required placeholder="Your message"{$disabledAttr}>{$mes}</textarea>
-          <span class="gy-contact-count" id="gy-message-count" aria-live="polite"></span>
-        </div>
-        <div class="gy-contact-hp" aria-hidden="true">
-          <label for="gy-website">Website</label>
-          <input type="text" id="gy-website" name="website" tabindex="-1" autocomplete="off"{$disabledAttr}>
-        </div>
-        <button type="submit" class="gy-contact-submit" aria-disabled="{$ariaDisabled}"{$disabledAttr}>Send message</button>
-      </fieldset>
+      <div class="gy-contact-field">
+        <label for="gy-username">Name</label>
+        <input id="gy-username" name="username" type="text" required maxlength="120" autocomplete="name" value="{$u}" placeholder="Your name" style="{$inputStyle}"{$dis}>
+      </div>
+      <div class="gy-contact-field">
+        <label for="gy-email">Email</label>
+        <input id="gy-email" name="email" type="email" required maxlength="254" autocomplete="email" value="{$em}" placeholder="you@example.com" style="{$inputStyle}"{$dis}>
+      </div>
+      <div class="gy-contact-field">
+        <label for="gy-subject">Subject</label>
+        <input id="gy-subject" name="subject" type="text" required maxlength="200" value="{$sub}" placeholder="Subject" style="{$inputStyle}"{$dis}>
+      </div>
+      <div class="gy-contact-field">
+        <label for="gy-message">Message</label>
+        <textarea id="gy-message" name="message" rows="5" maxlength="3000" required placeholder="Your message" style="{$textareaStyle}"{$dis}>{$mes}</textarea>
+        <span class="gy-contact-count" id="gy-message-count" aria-live="polite"></span>
+      </div>
+      <div class="gy-contact-hp" aria-hidden="true">
+        <label for="gy-website">Website</label>
+        <input type="text" id="gy-website" name="website" tabindex="-1" autocomplete="off"{$dis}>
+      </div>
+      <button type="submit" class="gy-contact-submit" style="{$btnStyle}"{$dis}>Send message</button>
     </form>
   </div>
 </div>
